@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>fire_paths.kml</name>
-	<Style id="sh_ylw-pushpin84">
+	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -15,41 +15,19 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin94</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1123</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin00">
+	<Style id="sh_red-circle">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>0.945455</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl05">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin94">
 		<IconStyle>
@@ -64,124 +42,9 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin13">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin120</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin13">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin84</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_ylw-pushpin59">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin59</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin1123">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin26">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl05</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin006">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin120">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl2">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -205,6 +68,243 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin59</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-circle">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin261">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl05</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin94</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1123</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin84">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1123">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl051">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin120">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0004">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin84</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin26">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl051</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl05">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin100">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -218,13 +318,1124 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl210</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>Drogi pożarowe</name>
 		<visibility>0</visibility>
 		<Folder>
 			<name>Nadleśnictwo Kobiór</name>
 			<visibility>0</visibility>
-			<open>1</open>
+			<Folder>
+				<name>labels</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>2</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.11321617227707</longitude>
+						<latitude>50.03945464013533</latitude>
+						<altitude>0</altitude>
+						<heading>-3.141642805719589</heading>
+						<tilt>0</tilt>
+						<range>11299.42187418392</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.10260115087538,50.04010639348149,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.0382973007923</longitude>
+						<latitude>50.01750087902638</latitude>
+						<altitude>0</altitude>
+						<heading>-3.199039349573953</heading>
+						<tilt>0</tilt>
+						<range>5372.789997033764</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.03502951806331,50.01672127171072,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.10565129243514</longitude>
+						<latitude>50.05943257195498</latitude>
+						<altitude>0</altitude>
+						<heading>-3.147411778459658</heading>
+						<tilt>0</tilt>
+						<range>14950.61608111736</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.07284376523556,50.05226294273042,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>6</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.03954144032181</longitude>
+						<latitude>50.04554862342373</latitude>
+						<altitude>0</altitude>
+						<heading>-3.198095052844224</heading>
+						<tilt>0</tilt>
+						<range>14939.5751123137</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.95354452985861,50.04717463949121,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>6</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.03954144032181</longitude>
+						<latitude>50.04554862342373</latitude>
+						<altitude>0</altitude>
+						<heading>-3.198095052844224</heading>
+						<tilt>0</tilt>
+						<range>14939.5751123137</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.04746360277847,50.03159698985357,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>7</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.0211359483652</longitude>
+						<latitude>50.02417880752605</latitude>
+						<altitude>0</altitude>
+						<heading>-3.212162645330287</heading>
+						<tilt>0</tilt>
+						<range>6967.087551576187</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.00619419635635,50.01101249426878,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>7</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.0211359483652</longitude>
+						<latitude>50.02417880752605</latitude>
+						<altitude>0</altitude>
+						<heading>-3.212162645330287</heading>
+						<tilt>0</tilt>
+						<range>6967.087551576187</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.01736583015371,50.0314241970252,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>9</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.04516021476752</longitude>
+						<latitude>50.03829666268709</latitude>
+						<altitude>0</altitude>
+						<heading>-3.193744556672664</heading>
+						<tilt>0</tilt>
+						<range>14491.86881468652</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.99263540158313,50.02945176623895,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>9</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.04539057965835</longitude>
+						<latitude>50.05080763176169</latitude>
+						<altitude>0</altitude>
+						<heading>-3.193564823431394</heading>
+						<tilt>0</tilt>
+						<range>14496.61638516337</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.01073965944475,50.07794377307372,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>10</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.06006762072095</longitude>
+						<latitude>50.03694150017159</latitude>
+						<altitude>0</altitude>
+						<heading>-3.182313838739741</heading>
+						<tilt>0</tilt>
+						<range>14491.30733097176</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.0255716131352,50.06266640693861,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>11</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.06006762072095</longitude>
+						<latitude>50.03694150017159</latitude>
+						<altitude>0</altitude>
+						<heading>-3.182313838739741</heading>
+						<tilt>0</tilt>
+						<range>14491.30733097176</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.00534770233593,50.0579910605834,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>11</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.06006762072095</longitude>
+						<latitude>50.03694150017159</latitude>
+						<altitude>0</altitude>
+						<heading>-3.182313838739741</heading>
+						<tilt>0</tilt>
+						<range>14491.30733097176</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.03466609426744,50.04703379286254,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>12</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.06006762072095</longitude>
+						<latitude>50.03694150017159</latitude>
+						<altitude>0</altitude>
+						<heading>-3.182313838739741</heading>
+						<tilt>0</tilt>
+						<range>14491.30733097176</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.987540718528,50.06401948682263,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>13</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.06006762072095</longitude>
+						<latitude>50.03694150017159</latitude>
+						<altitude>0</altitude>
+						<heading>-3.182313838739741</heading>
+						<tilt>0</tilt>
+						<range>14491.30733097176</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.03673341639758,50.06712375414588,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>14 Książęca</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.00727371211631</longitude>
+						<latitude>50.06163798152769</latitude>
+						<altitude>0</altitude>
+						<heading>-3.222764780036452</heading>
+						<tilt>0</tilt>
+						<range>14484.79700373246</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.93842935632594,50.06974507667376,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>14 Książęca</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.04905531631946</longitude>
+						<latitude>50.06614984234772</latitude>
+						<altitude>0</altitude>
+						<heading>-3.190734729281989</heading>
+						<tilt>0</tilt>
+						<range>14494.07384528759</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.03034174892287,50.07177378630522,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>16</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.9789777162621</longitude>
+						<latitude>50.04605238695512</latitude>
+						<altitude>0</altitude>
+						<heading>-3.244450076110732</heading>
+						<tilt>0</tilt>
+						<range>14479.11304982653</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.96240821369777,50.03905983897654,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>17</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.9789777162621</longitude>
+						<latitude>50.04605238695512</latitude>
+						<altitude>0</altitude>
+						<heading>-3.244450076110732</heading>
+						<tilt>0</tilt>
+						<range>14479.11304982653</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.95095315075187,50.03150751773875,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>18</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.9789777162621</longitude>
+						<latitude>50.04605238695512</latitude>
+						<altitude>0</altitude>
+						<heading>-3.244450076110732</heading>
+						<tilt>0</tilt>
+						<range>14479.11304982653</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.95370244511706,50.03010214958333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>19</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.9789777162621</longitude>
+						<latitude>50.04605238695512</latitude>
+						<altitude>0</altitude>
+						<heading>-3.244450076110732</heading>
+						<tilt>0</tilt>
+						<range>14479.11304982653</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.91667068449754,50.04320355647069,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>20</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.9789777162621</longitude>
+						<latitude>50.04605238695512</latitude>
+						<altitude>0</altitude>
+						<heading>-3.244450076110732</heading>
+						<tilt>0</tilt>
+						<range>14479.11304982653</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.92942472980625,50.02555647730164,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>21</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.9789777162621</longitude>
+						<latitude>50.04605238695512</latitude>
+						<altitude>0</altitude>
+						<heading>-3.244450076110732</heading>
+						<tilt>0</tilt>
+						<range>14479.11304982653</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.91544397579067,50.05875414888086,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>21</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.96801427861973</longitude>
+						<latitude>50.04612197875071</latitude>
+						<altitude>0</altitude>
+						<heading>-3.252851473659342</heading>
+						<tilt>0</tilt>
+						<range>14484.41084965197</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.88904681498661,50.03193844903728,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>22</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.96801427861973</longitude>
+						<latitude>50.04612197875071</latitude>
+						<altitude>0</altitude>
+						<heading>-3.252851473659342</heading>
+						<tilt>0</tilt>
+						<range>14484.41084965197</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.90438331898746,50.03580004910518,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>23</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90622199440548</longitude>
+						<latitude>50.04638106721427</latitude>
+						<altitude>0</altitude>
+						<heading>-3.300198146482793</heading>
+						<tilt>0</tilt>
+						<range>14473.62516431925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.860707317758,50.03013895580249,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>24</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90622199440548</longitude>
+						<latitude>50.04638106721427</latitude>
+						<altitude>0</altitude>
+						<heading>-3.300198146482793</heading>
+						<tilt>0</tilt>
+						<range>14473.62516431925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.88738475556528,50.04061585375093,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>24</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90622199440548</longitude>
+						<latitude>50.04638106721427</latitude>
+						<altitude>0</altitude>
+						<heading>-3.300198146482793</heading>
+						<tilt>0</tilt>
+						<range>14473.62516431925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.8400720510904,50.03170417573836,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>25 Pod napięciem</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90622199440548</longitude>
+						<latitude>50.04638106721427</latitude>
+						<altitude>0</altitude>
+						<heading>-3.300198146482793</heading>
+						<tilt>0</tilt>
+						<range>14473.62516431925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.87800761391629,50.02747987415172,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>25 Pod napięciem</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90622199440548</longitude>
+						<latitude>50.04638106721427</latitude>
+						<altitude>0</altitude>
+						<heading>-3.300198146482793</heading>
+						<tilt>0</tilt>
+						<range>14473.62516431925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.86756890335994,50.05752302886339,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>26 Maryjkowa</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90622199440548</longitude>
+						<latitude>50.04638106721427</latitude>
+						<altitude>0</altitude>
+						<heading>-3.300198146482793</heading>
+						<tilt>0</tilt>
+						<range>14473.62516431925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.85259387050759,50.04832703296906,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>27</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.8925534697653</longitude>
+						<latitude>50.05197945622168</latitude>
+						<altitude>0</altitude>
+						<heading>-3.310676191944787</heading>
+						<tilt>0</tilt>
+						<range>14464.47613724555</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.83524342373304,50.0449566003373,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>27</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.8925534697653</longitude>
+						<latitude>50.05197945622168</latitude>
+						<altitude>0</altitude>
+						<heading>-3.310676191944787</heading>
+						<tilt>0</tilt>
+						<range>14464.47613724555</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.81835633998316,50.07285203608164,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>28 Telefonowa</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.8925534697653</longitude>
+						<latitude>50.05197945622168</latitude>
+						<altitude>0</altitude>
+						<heading>-3.310676191944787</heading>
+						<tilt>0</tilt>
+						<range>14464.47613724555</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.83649796411044,50.05222930171008,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>29</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.8925534697653</longitude>
+						<latitude>50.05197945622168</latitude>
+						<altitude>0</altitude>
+						<heading>-3.310676191944787</heading>
+						<tilt>0</tilt>
+						<range>14464.47613724555</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.80958383889091,50.05777634616564,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>30 Rudkowa</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.8925534697653</longitude>
+						<latitude>50.05197945622168</latitude>
+						<altitude>0</altitude>
+						<heading>-3.310676191944787</heading>
+						<tilt>0</tilt>
+						<range>14464.47613724555</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.82392157457047,50.06385128110984,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>31 Okrąglica</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.8925534697653</longitude>
+						<latitude>50.05197945622168</latitude>
+						<altitude>0</altitude>
+						<heading>-3.310676191944787</heading>
+						<tilt>0</tilt>
+						<range>14464.47613724555</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.85498749034077,50.079967526257,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>31 Okrąglica</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.8925534697653</longitude>
+						<latitude>50.05197945622168</latitude>
+						<altitude>0</altitude>
+						<heading>-3.310676191944787</heading>
+						<tilt>0</tilt>
+						<range>14464.47613724555</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.89517068428501,50.06598310251575,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>32</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.91218639045502</longitude>
+						<latitude>50.07609295391782</latitude>
+						<altitude>0</altitude>
+						<heading>-3.295618019044368</heading>
+						<tilt>0</tilt>
+						<range>14467.98527280302</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.86637006470929,50.0787103991393,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>32</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.91218639045502</longitude>
+						<latitude>50.07609295391782</latitude>
+						<altitude>0</altitude>
+						<heading>-3.295618019044368</heading>
+						<tilt>0</tilt>
+						<range>14467.98527280302</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.91019813051672,50.08438075586651,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>33</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.91218639045502</longitude>
+						<latitude>50.07609295391782</latitude>
+						<altitude>0</altitude>
+						<heading>-3.295618019044368</heading>
+						<tilt>0</tilt>
+						<range>14467.98527280302</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.89407172494067,50.09111137140299,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>33</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.94618897260314</longitude>
+						<latitude>50.07894191693282</latitude>
+						<altitude>0</altitude>
+						<heading>-3.269542796508232</heading>
+						<tilt>0</tilt>
+						<range>14481.6946029005</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.92333467447039,50.07659813812664,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>34</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.94618897260314</longitude>
+						<latitude>50.07894191693282</latitude>
+						<altitude>0</altitude>
+						<heading>-3.269542796508232</heading>
+						<tilt>0</tilt>
+						<range>14481.6946029005</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.88121070216567,50.08744235823006,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>36</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.94618897260314</longitude>
+						<latitude>50.07894191693282</latitude>
+						<altitude>0</altitude>
+						<heading>-3.269542796508232</heading>
+						<tilt>0</tilt>
+						<range>14481.6946029005</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.86975842645525,50.09320545338291,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>37</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90051272320405</longitude>
+						<latitude>50.07667207721128</latitude>
+						<altitude>0</altitude>
+						<heading>-3.304562565453449</heading>
+						<tilt>0</tilt>
+						<range>16867.85693073411</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.86317047899803,50.07002882566929,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>39 Nowa</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.90051272320405</longitude>
+						<latitude>50.07667207721128</latitude>
+						<altitude>0</altitude>
+						<heading>-3.304562565453449</heading>
+						<tilt>0</tilt>
+						<range>16867.85693073411</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.84669417548432,50.06056017540102,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>47</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.85137667502451</longitude>
+						<latitude>50.17635782671257</latitude>
+						<altitude>0</altitude>
+						<heading>0.01567771176911469</heading>
+						<tilt>0</tilt>
+						<range>7302.25556395099</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.83038468944756,50.16596365988755,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>48</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.83617678743233</longitude>
+						<latitude>50.16047555735446</latitude>
+						<altitude>0</altitude>
+						<heading>0.00402987561851618</heading>
+						<tilt>0</tilt>
+						<range>3602.921246314926</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.83688838215494,50.16461041562351,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>49 Zielona</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.84696041976824</longitude>
+						<latitude>50.0976948038583</latitude>
+						<altitude>0</altitude>
+						<heading>-2.006799861346247</heading>
+						<tilt>0</tilt>
+						<range>7699.107343083891</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.81145778198907,50.085934056581,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>49 Zielona</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.84696041976824</longitude>
+						<latitude>50.0976948038583</latitude>
+						<altitude>0</altitude>
+						<heading>-2.006799861346247</heading>
+						<tilt>0</tilt>
+						<range>7699.107343083891</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.84248538969351,50.10103587852606,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>55</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.93807219957417</longitude>
+						<latitude>50.10276728006651</latitude>
+						<altitude>0</altitude>
+						<heading>0.0822210202393321</heading>
+						<tilt>0</tilt>
+						<range>10035.70112294364</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.91811287571633,50.12219983744446,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>55</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.93807219957417</longitude>
+						<latitude>50.10276728006651</latitude>
+						<altitude>0</altitude>
+						<heading>0.0822210202393321</heading>
+						<tilt>0</tilt>
+						<range>10035.70112294364</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.93120602957392,50.09061777947898,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>56 Na Wici</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.93807219957417</longitude>
+						<latitude>50.10276728006651</latitude>
+						<altitude>0</altitude>
+						<heading>0.0822210202393321</heading>
+						<tilt>0</tilt>
+						<range>10035.70112294364</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.91180749938095,50.11266245726483,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>57 Żwakowska</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.93807219957417</longitude>
+						<latitude>50.10276728006651</latitude>
+						<altitude>0</altitude>
+						<heading>0.0822210202393321</heading>
+						<tilt>0</tilt>
+						<range>10035.70112294364</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.92537014532495,50.10966680416065,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>57 Żwakowska</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.96611067940979</longitude>
+						<latitude>50.10001046990166</latitude>
+						<altitude>0</altitude>
+						<heading>0.1037312384784738</heading>
+						<tilt>0</tilt>
+						<range>10034.22242702328</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.95100173654306,50.1114581346765,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>58</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.96667107405292</longitude>
+						<latitude>50.11884469318434</latitude>
+						<altitude>0</altitude>
+						<heading>0.1041715875647674</heading>
+						<tilt>0</tilt>
+						<range>10030.30663853376</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.94363701358502,50.11406752978905,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>58</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.96667107405292</longitude>
+						<latitude>50.11884469318434</latitude>
+						<altitude>0</altitude>
+						<heading>0.1041715875647674</heading>
+						<tilt>0</tilt>
+						<range>10030.30663853376</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.94572197778297,50.13670574514535,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>59 Gostyńska</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.96667107405292</longitude>
+						<latitude>50.11884469318434</latitude>
+						<altitude>0</altitude>
+						<heading>0.1041715875647674</heading>
+						<tilt>0</tilt>
+						<range>10030.30663853376</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.94062009567447,50.09852543651654,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>59 Gostyńska</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.96667107405292</longitude>
+						<latitude>50.11884469318434</latitude>
+						<altitude>0</altitude>
+						<heading>0.1041715875647674</heading>
+						<tilt>0</tilt>
+						<range>10030.30663853376</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.91006718488044,50.10071083108365,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>60</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.97918616996772</longitude>
+						<latitude>50.09892955541248</latitude>
+						<altitude>0</altitude>
+						<heading>0.1137751441949366</heading>
+						<tilt>0</tilt>
+						<range>10040.66868633328</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.9716303855967,50.09711869451495,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>61</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.97918616996772</longitude>
+						<latitude>50.09892955541248</latitude>
+						<altitude>0</altitude>
+						<heading>0.1137751441949366</heading>
+						<tilt>0</tilt>
+						<range>10040.66868633328</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.96441667679686,50.08848477902823,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>61</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>18.97918616996772</longitude>
+						<latitude>50.09892955541248</latitude>
+						<altitude>0</altitude>
+						<heading>0.1137751441949366</heading>
+						<tilt>0</tilt>
+						<range>10040.66868633328</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.98601291351356,50.09313087975967,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 			<Placemark>
 				<name>2</name>
 				<visibility>0</visibility>
@@ -305,7 +1516,7 @@
 			<Placemark>
 				<name>10</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -316,7 +1527,7 @@
 			<Placemark>
 				<name>11</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -327,7 +1538,7 @@
 			<Placemark>
 				<name>12</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -338,7 +1549,7 @@
 			<Placemark>
 				<name>13</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -347,7 +1558,7 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>14</name>
+				<name>14 Książęca</name>
 				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin26</styleUrl>
 				<LineString>
@@ -360,7 +1571,7 @@
 			<Placemark>
 				<name>16</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -371,7 +1582,7 @@
 			<Placemark>
 				<name>17</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -382,7 +1593,7 @@
 			<Placemark>
 				<name>18</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -404,7 +1615,7 @@
 			<Placemark>
 				<name>20</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -426,7 +1637,7 @@
 			<Placemark>
 				<name>22</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -437,7 +1648,7 @@
 			<Placemark>
 				<name>23</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -448,7 +1659,7 @@
 			<Placemark>
 				<name>24</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -459,7 +1670,7 @@
 			<Placemark>
 				<name>25 Pod Napięciem</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin26</styleUrl>
+				<styleUrl>#m_ylw-pushpin261</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -470,7 +1681,7 @@
 			<Placemark>
 				<name>26 Maryjkowa</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0004</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -492,7 +1703,7 @@
 			<Placemark>
 				<name>28 Telefonowa</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0004</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -514,7 +1725,7 @@
 			<Placemark>
 				<name>30 Rudkowa</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#msn_ylw-pushpin30</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -591,7 +1802,7 @@
 			<Placemark>
 				<name>39 Nowa</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#msn_ylw-pushpin30</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -622,9 +1833,9 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>49</name>
+				<name>49 Zielona</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin001</styleUrl>
+				<styleUrl>#msn_ylw-pushpin7</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -655,9 +1866,9 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>57</name>
+				<name>57 Żwakowska</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin001</styleUrl>
+				<styleUrl>#msn_ylw-pushpin7</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -713,6 +1924,29 @@
 		<Folder>
 			<name>Nadleśnictwo Katowice</name>
 			<visibility>0</visibility>
+			<Folder>
+				<name>labels</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<Placemark>
+					<name>20</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>19.1477656038345</longitude>
+						<latitude>50.10841095635387</latitude>
+						<altitude>0</altitude>
+						<heading>0.2429744532452867</heading>
+						<tilt>0</tilt>
+						<range>7086.355093323838</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-circle</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.13367007083862,50.11014331947896,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 			<Placemark>
 				<name>20 (nie skończona)</name>
 				<visibility>0</visibility>
