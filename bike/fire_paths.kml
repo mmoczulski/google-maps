@@ -2,7 +2,17 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>fire_paths.kml</name>
-	<Style id="s_ylw-pushpin_hl05">
+	<StyleMap id="msn_ylw-pushpin0010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin94</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1123</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin14">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -15,22 +25,9 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin59">
+	<Style id="sn_red-circle">
 		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_red-circle0">
-		<IconStyle>
-			<scale>0.945455</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
 			</Icon>
@@ -42,79 +39,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin40">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin94">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin100">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin14">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin0004">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin84</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0010">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin94</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1123</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin1123">
+	<Style id="s_ylw-pushpin_hl05">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -137,19 +62,66 @@
 			<styleUrl>#sh_ylw-pushpin13</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin262">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl051</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin84">
+	<StyleMap id="m_ylw-pushpin006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-circle00">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -173,6 +145,26 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin261">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl05</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_ylw-pushpin15">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -186,191 +178,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin006">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl210</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>0.945455</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl051">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin14">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin120">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_red-circle0">
-		<IconStyle>
-			<scale>0.8</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>0.8</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl210">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin261">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl05</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin262">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl051</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-circle">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-circle0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-circle</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_red-circle">
-		<IconStyle>
-			<scale>0.945455</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-circle">
+	<Style id="sn_red-circle00">
 		<IconStyle>
 			<scale>0.8</scale>
 			<Icon>
@@ -397,27 +205,79 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin7">
+	<Style id="sh_ylw-pushpin84">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_red-circle0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+			<styleUrl>#sn_red-circle0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin14</styleUrl>
+			<styleUrl>#sh_red-circle0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin0060">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin14</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl210</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin000">
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin140">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -430,7 +290,40 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin13">
+	<StyleMap id="msn_red-circle00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl051">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin132">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin100</styleUrl>
@@ -440,6 +333,187 @@
 			<styleUrl>#sh_ylw-pushpin120</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_red-circle0">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0004">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin84</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin94">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_red-circle0">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>0.945455</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl2100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin59">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin120">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1123">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin02">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Folder>
 		<name>Drogi pożarowe</name>
 		<visibility>0</visibility>
@@ -449,7 +523,6 @@
 			<Folder>
 				<name>labels</name>
 				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>2</name>
 					<visibility>0</visibility>
@@ -505,7 +578,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>6</name>
+					<name>6 Kobiórska</name>
 					<visibility>0</visibility>
 					<LookAt>
 						<longitude>19.03954144032181</longitude>
@@ -516,14 +589,14 @@
 						<range>14939.5751123137</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>18.95354452985861,50.04717463949121,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>6</name>
+					<name>6 Kobiórska</name>
 					<visibility>0</visibility>
 					<LookAt>
 						<longitude>19.03954144032181</longitude>
@@ -534,14 +607,14 @@
 						<range>14939.5751123137</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.04746360277847,50.03159698985357,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>7*</name>
+					<name>7* Jarzębinowa</name>
 					<visibility>0</visibility>
 					<LookAt>
 						<longitude>19.0211359483652</longitude>
@@ -552,14 +625,14 @@
 						<range>6967.087551576187</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle</styleUrl>
+					<styleUrl>#msn_red-circle00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.00619419635635,50.01101249426878,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>7*</name>
+					<name>7* Jarzębinowa</name>
 					<visibility>0</visibility>
 					<LookAt>
 						<longitude>19.0211359483652</longitude>
@@ -570,14 +643,14 @@
 						<range>6967.087551576187</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle</styleUrl>
+					<styleUrl>#msn_red-circle00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.01736583015371,50.0314241970252,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>9</name>
+					<name>9 Jankowicka</name>
 					<visibility>0</visibility>
 					<LookAt>
 						<longitude>19.04516021476752</longitude>
@@ -588,14 +661,14 @@
 						<range>14491.86881468652</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>18.99263540158313,50.02945176623895,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>9</name>
+					<name>9 Jankowicka</name>
 					<visibility>0</visibility>
 					<LookAt>
 						<longitude>19.04539057965835</longitude>
@@ -606,7 +679,7 @@
 						<range>14496.61638516337</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.01073965944475,50.07794377307372,0</coordinates>
@@ -667,7 +740,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>12</name>
+					<name>12 Czarna</name>
 					<visibility>0</visibility>
 					<LookAt>
 						<longitude>19.06006762072095</longitude>
@@ -678,7 +751,7 @@
 						<range>14491.30733097176</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_red-circle0</styleUrl>
+					<styleUrl>#msn_red-circle00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>18.987540718528,50.06401948682263,0</coordinates>
@@ -1552,7 +1625,7 @@
 			<Placemark>
 				<name>2</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin006</styleUrl>
+				<styleUrl>#m_ylw-pushpin0060</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -1563,7 +1636,7 @@
 			<Placemark>
 				<name>3 (nie skończona)</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin006</styleUrl>
+				<styleUrl>#m_ylw-pushpin0060</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -1574,7 +1647,7 @@
 			<Placemark>
 				<name>4</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin006</styleUrl>
+				<styleUrl>#m_ylw-pushpin0060</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -1583,7 +1656,7 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>6</name>
+				<name>6 Kobiórska</name>
 				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin006</styleUrl>
 				<LineString>
@@ -1594,7 +1667,7 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>7 (nie skończona)</name>
+				<name>7 (nie skończona) Jarzębinowa</name>
 				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin006</styleUrl>
 				<LineString>
@@ -1605,7 +1678,7 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>7 (nie skończona)</name>
+				<name>7 (nie skończona) Jarzębinowa</name>
 				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin006</styleUrl>
 				<LineString>
@@ -1616,7 +1689,7 @@
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<name>9</name>
+				<name>9 Jankowicka</name>
 				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin006</styleUrl>
 				<LineString>
@@ -1717,7 +1790,7 @@
 			<Placemark>
 				<name>19</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin006</styleUrl>
+				<styleUrl>#m_ylw-pushpin0060</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -1739,7 +1812,7 @@
 			<Placemark>
 				<name>21</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin006</styleUrl>
+				<styleUrl>#m_ylw-pushpin0060</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -1926,7 +1999,7 @@
 			<Placemark>
 				<name>47</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin132</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -1937,7 +2010,7 @@
 			<Placemark>
 				<name>48 (nie skończona)</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin132</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -2071,7 +2144,7 @@
 						<range>9686.038572498734</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.0558147749058,50.17195106050064,0</coordinates>
@@ -2089,10 +2162,10 @@
 						<range>9686.038572498734</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>19.07177077803334,50.14411443849961,0</coordinates>
+						<coordinates>19.07177077803334,50.1441144384996,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2107,7 +2180,7 @@
 						<range>2518.33909537556</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.07309527834838,50.17021276484661,0</coordinates>
@@ -2125,7 +2198,7 @@
 						<range>2917.583636770421</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.05996674926634,50.17210265776735,0</coordinates>
@@ -2143,7 +2216,7 @@
 						<range>4715.976564765537</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.07780349053411,50.14476391306419,0</coordinates>
@@ -2161,7 +2234,7 @@
 						<range>1871.107935905093</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.07642452346471,50.14962779081723,0</coordinates>
@@ -2179,7 +2252,7 @@
 						<range>6904.788035915171</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.02516767890598,50.16081845454714,0</coordinates>
@@ -2197,7 +2270,7 @@
 						<range>6902.938480507521</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.06786977096834,50.16227249580882,0</coordinates>
@@ -2215,7 +2288,7 @@
 						<range>4672.361011316521</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.02943579152181,50.15584801110823,0</coordinates>
@@ -2233,7 +2306,7 @@
 						<range>6906.874219287403</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.03614087710319,50.1400520044222,0</coordinates>
@@ -2251,7 +2324,7 @@
 						<range>1824.937824468636</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.03575106306035,50.14284016385801,0</coordinates>
@@ -2261,7 +2334,7 @@
 			<Placemark>
 				<name>20 (nie skończona)</name>
 				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin006</styleUrl>
+				<styleUrl>#m_ylw-pushpin0060</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -2272,18 +2345,18 @@
 			<Placemark>
 				<name>38</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						19.05359715657437,50.17397914843841,0 19.05394853884876,50.17383242982387,0 19.05481686800738,50.17362519016456,0 19.05593114568743,50.17343805806304,0 19.05714883666882,50.17307347246844,0 19.05809426174456,50.17276742119447,0 19.05873399661906,50.17252960712095,0 19.05839218710494,50.17178099933646,0 19.05781775432722,50.17064974347169,0 19.05745026924433,50.16978658435995,0 19.05728565001417,50.16819240765994,0 19.05719425805037,50.1669272199293,0 19.05701501532953,50.16480973527109,0 19.05687674926351,50.16401240518475,0 19.05680973442096,50.1636257248415,0 19.0565896842597,50.16334710851032,0 19.0563860485815,50.16308059418856,0 19.05622686224651,50.16273793259662,0 19.05629019456418,50.16243556866771,0 19.05665581308054,50.16151275063734,0 19.05711708525104,50.16070514399834,0 19.05726308050784,50.16043869019151,0 19.0578192589567,50.15971214461978,0 19.05813298931995,50.1589089242152,0 19.05840725684832,50.15825431528601,0 19.05843384049884,50.15645075789563,0 19.05847319691421,50.15592771727032,0 19.05860253837247,50.15545385669594,0 19.05893457684966,50.15507749225985,0 19.05914000426492,50.15474236529672,0 19.05913617766904,50.15435231180116,0 19.05908865366681,50.15366641695078,0 19.05921054345497,50.15317229733309,0 19.05931647452934,50.15284555388156,0 19.05966538521812,50.15240388866758,0 19.06047156995303,50.1514550940074,0 19.0610034450022,50.15083746758296,0 19.06193352554975,50.15014408780696,0 19.06192245930611,50.14954799640174,0 19.06183371650914,50.14906733765917,0 19.06178459030863,50.14878092692783,0 19.06214809989257,50.14848644085961,0 19.06283694253591,50.14812380750935,0 19.06369941233525,50.14759631841762,0 19.06381100028002,50.14732669667002,0 19.06399189612223,50.14682234103401,0 19.06440025526788,50.14646132488588,0 19.06490717992735,50.14620700998343,0 19.06561906958827,50.14602866974066,0 19.06743979645039,50.14583610679658,0 19.0694712478629,50.14567152816238,0 19.07010072673908,50.14553510824569,0 19.070757342357,50.14518026037815,0 19.07111187038114,50.14475096917609,0 19.07181401033422,50.1441170857311,0 19.07252491771949,50.14342653293114,0 19.07301956455938,50.14300010023153,0 19.07368777578222,50.142600358543,0 19.0739943014372,50.14242513635932,0 19.07447027965697,50.14224880723258,0 19.07479657579415,50.14192989318615,0 19.07502867060867,50.14145887485918,0 19.07512203680217,50.14097183134039,0 19.07514718949342,50.14055616224415,0 19.0754159630618,50.14013523330873,0 19.07588403669835,50.13980783102843,0 19.07652935276106,50.13952352904003,0 19.07780260078177,50.13933655529389,0 
+						19.05359715657437,50.17397914843841,0 19.05394853884876,50.17383242982387,0 19.05481686800738,50.17362519016456,0 19.05593114568743,50.17343805806304,0 19.05714883666882,50.17307347246844,0 19.05809426174456,50.17276742119447,0 19.05873399661906,50.17252960712095,0 19.05839218710494,50.17178099933646,0 19.05781775432722,50.17064974347169,0 19.05745026924433,50.16978658435995,0 19.05728565001417,50.16819240765994,0 19.05719425805037,50.1669272199293,0 19.05701501532953,50.16480973527109,0 19.05687674926351,50.16401240518475,0 19.05680973442096,50.1636257248415,0 19.0565896842597,50.16334710851032,0 19.0563860485815,50.16308059418856,0 19.05622686224651,50.16273793259662,0 19.05629019456418,50.16243556866771,0 19.05665581308054,50.16151275063735,0 19.05711708525104,50.16070514399834,0 19.05726308050784,50.16043869019151,0 19.0578192589567,50.15971214461978,0 19.05813298931995,50.1589089242152,0 19.05840725684832,50.15825431528601,0 19.05843384049884,50.15645075789563,0 19.05847319691421,50.15592771727032,0 19.05860253837247,50.15545385669594,0 19.05893457684966,50.15507749225985,0 19.05914000426492,50.15474236529672,0 19.05913617766904,50.15435231180116,0 19.05908865366681,50.15366641695078,0 19.05921054345497,50.15317229733309,0 19.05931647452934,50.15284555388156,0 19.05966538521812,50.15240388866758,0 19.06047156995303,50.1514550940074,0 19.0610034450022,50.15083746758296,0 19.06193352554975,50.15014408780696,0 19.06192245930611,50.14954799640174,0 19.06183371650914,50.14906733765917,0 19.06178459030863,50.14878092692783,0 19.06214809989257,50.14848644085961,0 19.06283694253591,50.14812380750935,0 19.06369941233525,50.14759631841762,0 19.06381100028002,50.14732669667002,0 19.06399189612223,50.14682234103401,0 19.06440025526788,50.14646132488588,0 19.06490717992735,50.14620700998343,0 19.06561906958827,50.14602866974066,0 19.06743979645039,50.14583610679658,0 19.0694712478629,50.14567152816238,0 19.07010072673908,50.14553510824569,0 19.070757342357,50.14518026037815,0 19.07111187038114,50.14475096917609,0 19.07181401033422,50.1441170857311,0 19.07252491771949,50.14342653293114,0 19.07301956455938,50.14300010023153,0 19.07368777578222,50.142600358543,0 19.0739943014372,50.14242513635932,0 19.07447027965697,50.14224880723258,0 19.07479657579415,50.14192989318615,0 19.07502867060867,50.14145887485919,0 19.07512203680217,50.14097183134039,0 19.07514718949342,50.14055616224415,0 19.0754159630618,50.14013523330873,0 19.07588403669835,50.13980783102843,0 19.07652935276106,50.13952352904003,0 19.07780260078177,50.13933655529389,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
 			<Placemark>
 				<name>39 (nie skończona)</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -2294,18 +2367,18 @@
 			<Placemark>
 				<name>40</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						19.05874937894027,50.17254618646939,0 19.05961189152599,50.17225014687017,0 19.06072287097123,50.17198318112504,0 19.06171374429912,50.17183218348443,0 19.06285135128451,50.17169757559387,0 19.06400316584288,50.17159620260801,0 19.06485504346502,50.17145131170819,0 19.06624877479669,50.17116158593155,0 19.06695199659894,50.17094605714597,0 19.06760423187169,50.1692485194373,0 19.06876913996735,50.16614888097093,0 19.07024386730464,50.16270143680185,0 19.07134410561966,50.15983197271404,0 19.0732573992111,50.15492647758612,0 19.07420363080384,50.15258120874158,0 19.07548553465239,50.14940098564954,0 19.07661906866021,50.14653304789824,0 19.0781157842084,50.14284580370892,0 19.07442832314211,50.14226812962696,0 
+						19.05874937894027,50.17254618646939,0 19.05961189152599,50.17225014687017,0 19.06072287097123,50.17198318112505,0 19.06171374429912,50.17183218348443,0 19.06285135128451,50.17169757559387,0 19.06400316584288,50.17159620260801,0 19.06485504346502,50.17145131170819,0 19.06624877479669,50.17116158593155,0 19.06695199659894,50.17094605714597,0 19.06760423187169,50.1692485194373,0 19.06876913996735,50.16614888097093,0 19.07024386730464,50.16270143680185,0 19.07134410561966,50.15983197271404,0 19.0732573992111,50.15492647758612,0 19.07420363080384,50.15258120874158,0 19.07548553465239,50.14940098564954,0 19.07661906866021,50.14653304789824,0 19.0781157842084,50.14284580370892,0 19.07442832314211,50.14226812962696,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
 			<Placemark>
 				<name>43 (nie skończona)</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -2316,7 +2389,7 @@
 			<Placemark>
 				<name>44 (nie skończona)</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -2327,7 +2400,7 @@
 			<Placemark>
 				<name>45</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -2338,7 +2411,7 @@
 			<Placemark>
 				<name>46 (nie skończona)</name>
 				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>

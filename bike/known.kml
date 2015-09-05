@@ -2,33 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>known.kml</name>
-	<Style id="sh_ylw-pushpin64">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin96">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin03">
+	<Style id="sh_ylw-pushpin420">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -38,65 +12,6 @@
 		</IconStyle>
 		<LineStyle>
 			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin260">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin80">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin14">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin503">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -110,7 +25,17 @@
 			<styleUrl>#sh_ylw-pushpin910</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin0111">
+	<StyleMap id="msn_ylw-pushpin105">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin43</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin151">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -123,16 +48,6 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin401">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin503</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin64</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin64">
 		<Pair>
 			<key>normal</key>
@@ -143,7 +58,7 @@
 			<styleUrl>#sh_ylw-pushpin1200</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin20">
+	<Style id="sh_ylw-pushpin62">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -152,11 +67,11 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff000000</color>
+			<color>ffff0000</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin93">
+	<Style id="sn_ylw-pushpin501">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -165,34 +80,11 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff000000</color>
+			<color>ff00ff55</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin0012">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin0021">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin118</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl101</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin101">
+	<Style id="sn_ylw-pushpin50">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -205,6 +97,52 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin1001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2020">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin24</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin104">
 		<Pair>
 			<key>normal</key>
@@ -215,22 +153,42 @@
 			<styleUrl>#sh_ylw-pushpin73</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin110">
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin043</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin03</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin125">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff00ff00</color>
+			<color>ff000000</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin8">
+	<Style id="s_ylw-pushpin401">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -254,170 +212,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin0001">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin55</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin80</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin24">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin301">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin71">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin1602">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin31">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin26">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin102">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin73">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin08">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff55</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin173">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin81">
+	<Style id="s_ylw-pushpin_hl2110">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -430,115 +225,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin35">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin501</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin160</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl101">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin900">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1020</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin920</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin420">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00020</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin114">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin19">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin19">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin08">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin301">
+	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -551,129 +238,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin007</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin107</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin90">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1001</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin136">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin1001">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin32">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin22</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin24</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin011">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin401</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl211</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin01">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin09</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin08</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin181">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin72</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin241</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin70">
+	<Style id="sn_ylw-pushpin72">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -683,386 +248,6 @@
 		</IconStyle>
 		<LineStyle>
 			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin910">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin50">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin207">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin22">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin34">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin161</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin171</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0102">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin4010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin1601">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin151">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin113">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin39">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0230</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin25</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin230">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin380">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin36</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin360</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin24">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin171">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin0040">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin173</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin91</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl211">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin02">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin043</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin03</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin312">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0012</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin630</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin1200">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin106">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin600">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin131">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin1111">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin151</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin301</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin210">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin7">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin44">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin112</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin420</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1020">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin131</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin210</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin112">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin50</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin31</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin3101">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin62">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -1079,9 +264,9 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin0022">
+	<Style id="sn_ylw-pushpin00020">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -1092,104 +277,9 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin007">
+	<Style id="sn_ylw-pushpin0111">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin80">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin360">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin14">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00d5ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin501">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff55</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin430">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0500</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin250</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin4010">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin250">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -1200,7 +290,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin012">
+	<Style id="sh_ylw-pushpin68">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1213,53 +303,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin711">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin210">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin05">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin170</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin710</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin57</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin07</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin1020">
+	<Style id="sn_ylw-pushpin0230">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1272,20 +316,50 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin630">
+	<StyleMap id="msn_ylw-pushpin720">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin301</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin031</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin75</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0070">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff00ff00</color>
+			<color>ff000000</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin401">
+	<StyleMap id="msn_ylw-pushpin113">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin193">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1311,6 +385,52 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin151">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin380">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin36</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin360</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin031">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin920">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1324,7 +444,105 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin193">
+	<Style id="sn_ylw-pushpin70">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin360">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin75">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin101">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin711</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin021</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin021">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin207</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin900">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1337,7 +555,66 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin0500">
+	<Style id="sn_ylw-pushpin53">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin05">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin170</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin710</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0021">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin118</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin43">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1350,20 +627,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin1002">
+	<Style id="sh_ylw-pushpin0022">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1372,7 +636,53 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff00ff00</color>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin08</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -1389,7 +699,20 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin57">
+	<Style id="sh_ylw-pushpin106">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin26">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1399,6 +722,110 @@
 		</IconStyle>
 		<LineStyle>
 			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin24">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin160">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin301">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin07">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00d5ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1101">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin161">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -1412,6 +839,222 @@
 			<styleUrl>#sh_ylw-pushpin230</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_ylw-pushpin107">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin131">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1020">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin35">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin501</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin160</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin64">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin260">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin102">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin521">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin013</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin72">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin260">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin08</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl350</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin25">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin136">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin80">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin173">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
 	<StyleMap id="msn_ylw-pushpin0110">
 		<Pair>
 			<key>normal</key>
@@ -1420,6 +1063,461 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin012</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin122">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin152</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl080</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin38">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin91">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin163">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin193</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin44</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1601">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin93</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin68</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin421">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin09</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin57</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin07</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin03">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin62</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin250">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin171">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin710">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin44">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin411">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin110">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin31">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3101">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin111">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin4010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin08">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin910">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin118">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin124">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0022</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin81">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin131</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin36">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin73">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin181">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin72</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin241</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1140">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin71">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin031">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin420">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin012">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin031</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin125</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin430">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin250</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_ylw-pushpin55">
@@ -1448,556 +1546,6 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin241">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin00020">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin15">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin71</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin44">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin60">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin031</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin125</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin521">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0011</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin013</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin36">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin40">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin16">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin75</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin125">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin200">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin118">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl350">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff55</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl2110">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin122">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin152</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl080</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin110">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin163">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin193</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin44</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin105">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin43</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin3001</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin19</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin106</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin09">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055aa</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin9">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin0120">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin711</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin021</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin74">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin38</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin1101">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin202">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin900</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin81</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin013">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin260">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin08</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl350</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin38">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin411">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin107">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin161">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin2700">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3101</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin62</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin031">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin710">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00d5ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin160">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff55</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin72">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin1601">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin93</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin68</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin43">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin421">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00002</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1101</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin75">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin124">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin101</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0022</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin031">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin170">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2011,27 +1559,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin33">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin210</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin112</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin24">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin136</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin124</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin021">
+	<Style id="sh_ylw-pushpin2100">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2044,7 +1572,217 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin25">
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin112</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin106</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0102">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin4010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin124">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1602">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin503">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin401">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin503</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin64</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin110">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin301">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin112">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin39">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin401</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl211</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin202">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin81</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin013">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2057,19 +1795,104 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin316">
+	<StyleMap id="msn_ylw-pushpin34">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin24</styleUrl>
+			<styleUrl>#sn_ylw-pushpin161</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin19</styleUrl>
+			<styleUrl>#sh_ylw-pushpin171</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin111">
+	<Style id="sn_ylw-pushpin19">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0310">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin96">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin802">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin96</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1601">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin93">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin151</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin301</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1002">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -2093,17 +1916,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin06">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0111</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1602</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin11">
+	<Style id="s_ylw-pushpin_hl350">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2112,11 +1925,87 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ffff0000</color>
+			<color>ff00ff55</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin0310">
+	<StyleMap id="msn_ylw-pushpin001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin55</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin72</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00d5ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin520">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin370</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0040">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin173</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin91</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin920</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2129,32 +2018,9 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin802">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin111</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin96</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin0230">
+	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin124">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -2165,7 +2031,20 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin2020">
+	<Style id="sh_ylw-pushpin09">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin241">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2175,85 +2054,6 @@
 		</IconStyle>
 		<LineStyle>
 			<color>ff0000ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin1010">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ffff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin53">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin720">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin301</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin031</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin151">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin53</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1002</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin04">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin26</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin207</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin520">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin114</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin370</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin91">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -2267,16 +2067,26 @@
 			<styleUrl>#sh_ylw-pushpin600</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin420">
+	<StyleMap id="msn_ylw-pushpin06">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1602</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin711">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff000000</color>
+			<color>ff0000ff</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -2293,17 +2103,43 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin301">
+	<Style id="sn_ylw-pushpin22">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin74">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin70</styleUrl>
+			<styleUrl>#sn_ylw-pushpin38</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2020</styleUrl>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin68">
+	<Style id="sn_ylw-pushpin0012">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin230">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2316,7 +2152,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin07">
+	<Style id="sh_ylw-pushpin630">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2325,7 +2161,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff000000</color>
+			<color>ff00ff00</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -2342,6 +2178,242 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin210">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin312">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin630</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0070</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin107</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin57">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin007</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin08">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin24">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin136</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin124</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin207">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl101">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin600">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin80">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl211">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin71</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin007">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0500">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin44">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin420</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>Znane</name>
 		<visibility>0</visibility>
@@ -2499,11 +2571,11 @@ Nieznane odcinki: Rybnik - Niewiesze; Toszek - Lubliniec</description>
 				<name>R4</name>
 				<visibility>0</visibility>
 				<open>1</open>
-				<styleUrl>#msn_ylw-pushpin316</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						19.1073181029747,50.01435400499022,0 19.10441356963447,50.01371269815907,0 19.10291891253709,50.01342246521682,0 19.1024651299719,50.01334791597177,0 19.10008385238746,50.01286291292858,0 19.09683191637395,50.01217830380395,0 19.09470465739037,50.01172028649117,0 19.09296317100781,50.01133716501574,0 19.09241768751457,50.01129282157314,0 19.09232614528997,50.01117442253755,0 19.08889810606629,50.01021576718617,0 19.08429609579199,50.00900611778035,0 19.07721728704713,50.0071294417568,0 19.0745335256237,50.00639890885689,0 19.07072351816929,50.00537719723754,0 19.06663888637691,50.00430112435431,0 19.063639503631,50.00352218769808,0 19.06311669360199,50.00328995855224,0 19.06269690264237,50.00223831617549,0 19.0614920471476,50.00229740738726,0 19.06036924582966,50.0021554999018,0 19.05861502556009,50.00216749359677,0 19.05738918545105,50.0019885497026,0 19.0569596042768,50.00188362631569,0 19.05610258981484,50.00162276132646,0 19.05577712532494,50.00145127400034,0 19.05575413161609,50.00132471099018,0 19.05581235864533,50.00122054984509,0 19.05511322014327,50.00002291425341,0 19.05507762673062,49.9996655711386,0 19.05418783098743,49.99820891225369,0 19.05215149044438,49.99857984921679,0 19.05005299440774,49.99857141291457,0 19.04946726102818,49.99861822422606,0 19.0485589748653,49.99880474741452,0 19.04810785417861,49.99862747497927,0 19.0463181176469,49.99592845321388,0 19.04378497148183,49.9960260493331,0 19.04283107364915,49.99589765133275,0 19.04124529352863,49.99540470694084,0 19.04087028846277,49.99497075814554,0 19.04044312694136,49.9947035270452,0 19.03902864361837,49.9941675495255,0 19.03847314403463,49.994159733869,0 19.03587150454589,49.99400197633382,0 19.03448197020316,49.99394148360526,0 19.03286065229775,49.99391097417547,0 19.03289034959649,49.99349856300009,0 19.03248260313206,49.99295189506081,0 19.03231092323238,49.99218832249164,0 19.03104104197186,49.9918690323254,0 19.02991237567428,49.991890814327,0 19.0287467320447,49.99183806528794,0 19.02629217806664,49.99152508020004,0 19.02393602052365,49.9912390400741,0 19.02278874081292,49.99074416060247,0 19.02028114835694,49.98936307981041,0 19.01962830918498,49.9891239821642,0 19.0167556310401,49.98868114611486,0 19.01268528465881,49.98817925162584,0 19.0120303964871,49.98814928023722,0 19.01097873532624,49.98861398466227,0 19.0103006380225,49.98879879438153,0 19.00949906460341,49.98878305911367,0 19.0088133737749,49.98875333971897,0 19.00773684591862,49.98831331604222,0 19.00720357550855,49.98825324852688,0 19.00652126776019,49.98844601934216,0 19.0061166606611,49.98853489223476,0 19.00567586513412,49.98845269721604,0 19.00497320507399,49.98808695721312,0 19.00454617954347,49.98792295107592,0 19.00407223005677,49.98785565127583,0 19.00280335082015,49.98784773048611,0 19.00049364785727,49.98742301823611,0 18.99940710261966,49.9867055523762,0 18.9986087368801,49.98610990979281,0 18.99805410421057,49.98589373682238,0 18.9951723983184,49.9853005742278,0 18.99367116668847,49.98497172940515,0 18.99155609547786,49.98468197340418,0 18.99094420553327,49.98450298140152,0 18.99050866850944,49.98421292267433,0 18.99009884070681,49.98386281756284,0 18.98950724071505,49.983572113977,0 18.98897466295128,49.98340785842678,0 18.9883855841341,49.98338502897502,0 18.98703101907214,49.98334233673276,0 18.98561742355146,49.98306571746335,0 18.98504989408912,49.98279087679165,0 18.98428894785251,49.98253774548111,0 18.98383747474861,49.98230667016028,0 18.98363504443462,49.98187721338938,0 18.98345420081068,49.98165566558195,0 18.98132344324793,49.98142922347303,0 18.98001809548293,49.98124190665057,0 18.97509993316991,49.9801777002593,0 18.97163863865158,49.97942687081352,0 18.96783137598965,49.9784841686313,0 18.9676834223426,49.9783803494253,0 18.96567698324525,49.97794713808197,0 18.96495370805301,49.9766768300813,0 18.96472052434583,49.97608957120511,0 18.96465260970451,49.97552566990891,0 18.96122916992767,49.97605648872435,0 18.95977464315698,49.97630472454193,0 18.95904038200003,49.9757554486699,0 18.95820125008292,49.97581254707235,0 18.9582524635057,49.97607932206275,0 18.95817157627169,49.97625751338474,0 18.95798737826768,49.97633901112038,0 18.95786084694592,49.97640570687793,0 18.95754667527792,49.97646474760305,0 18.95672708940861,49.97653807606109,0 18.95519105030517,49.97658060197716,0 18.95385847081862,49.97681934362489,0 18.95282178990211,49.97701026454642,0 18.95280291164587,49.97720924454203,0 18.9521168413164,49.97774698614161,0 18.9514822339778,49.97807790483441,0 18.94936043287081,49.97866205492672,0 18.94865307088428,49.9788533383791,0 18.94827208875266,49.97908977803753,0 18.94808675000685,49.97938573852441,0 18.94792511656568,49.97949660119736,0 18.94574403914994,49.9803607922045,0 18.94527437177419,49.98051513084647,0 18.94461376933616,49.98049935359832,0 18.943996304752,49.98034309344646,0 18.94343183790316,49.98029784940759,0 18.94310985377557,49.98031959184591,0 18.9422466827485,49.98054025080524,0 18.94146198716671,49.9796156598555,0 18.94114421644401,49.97917150499606,0 18.94085787521566,49.97890497405246,0 18.94058237172081,49.97872713024418,0 18.94013477143271,49.97871178554755,0 18.93979117587315,49.97886667619838,0 18.93947492632176,49.97910994193477,0 18.93890915252081,49.97954908941967,0 18.93844918836649,49.97993062144665,0 18.93794921822378,49.98012876634511,0 18.93719929108356,49.98017970950605,0 18.93634759702322,49.9801427666123,0 18.93577682005607,49.9800598521747,0 18.93529555431313,49.97995835284768,0 18.93457245858731,49.97997050302136,0 18.93389357290189,49.98002215900183,0 18.93312967594418,49.98008284199193,0 18.93258995331459,49.98013553551073,0 18.93230757528001,49.98003645975961,0 18.93190959677508,49.9798402645034,0 18.9317355142561,49.97968494713119,0 18.93172431027746,49.97955028957882,0 18.93133490352669,49.97901817277738,0 18.93104140402953,49.97887189509527,0 18.93049360963762,49.97845135772467,0 18.93000333546712,49.97816986492046,0 18.92937799448896,49.9778111566484,0 18.92891944281035,49.97742103691864,0 18.92859844741862,49.97700085087527,0 18.92832469122505,49.97654295682319,0 18.92820232949586,49.97610724696276,0 18.92824468569667,49.97562544108787,0 18.92825521362827,49.97517183530252,0 18.92834064254821,49.97467882479194,0 18.92842326478016,49.97427032145665,0 18.92872070217724,49.97372725227255,0 18.92908048394128,49.97315936169089,0 18.92949874869217,49.9726703159134,0 18.92965902761645,49.97225658812168,0 18.92988384431249,49.97164798300634,0 18.93028856649621,49.97035193607001,0 18.93054728161146,49.96952698567031,0 18.92848150619088,49.96884090308657,0 18.92654019901303,49.96820037872831,0 18.9249764725455,49.96771275646213,0 18.92432236882465,49.96748519888806,0 18.92279765005327,49.96685708166811,0 18.92050787973659,49.96596338936558,0 18.91924750780066,49.96601595219218,0 18.91691670989614,49.96614843503708,0 18.91473974784175,49.96624750104215,0 18.91181746442396,49.96641322412609,0 18.91030222459018,49.96649417673154,0 18.90877052074775,49.96656422487584,0 18.9075997052042,49.96654363564344,0 18.90692630790258,49.96653022755936,0 18.90606724354511,49.96639657340605,0 18.90521346775636,49.96625287557929,0 18.90439214242512,49.96606894597115,0 18.90356896366172,49.96588535932073,0 18.90293255592841,49.96583197017642,0 18.90203022210977,49.96591318792049,0 18.90125654543446,49.96593744904221,0 18.90005001779782,49.96573955320162,0 18.89904803586523,49.96561129274724,0 18.89799093074889,49.96535738832511,0 18.89706191841028,49.96513900138796,0 18.89541437870987,49.9646989668703,0 18.89524523553156,49.96479601149958,0 18.8949426168699,49.96555943451844,0 18.89123152550668,49.96533555763719,0 18.89047588431169,49.96535011637169,0 18.8889437168577,49.96524417744102,0 18.88785000864518,49.96519532171084,0 18.88723624002467,49.96524579686668,0 18.88578091467337,49.96499824653334,0 18.88392883432508,49.96471629018446,0 18.8833720263598,49.96466561845281,0 18.88312080710481,49.96479078522773,0 18.88260831597733,49.96519534195739,0 18.88234340822268,49.96529947157524,0 18.8820325065561,49.96537104441018,0 18.88084244292874,49.96520496217807,0 18.88047177260585,49.96522278449596,0 18.88026925607512,49.96533941639184,0 18.8798962858212,49.96557378835773,0 18.87945390382972,49.96568194175241,0 18.8791305887104,49.96571171794315,0 18.87852157553643,49.96571059352485,0 18.87831238939972,49.96566174309738,0 18.87819593108743,49.96551305648327,0 18.87811075546023,49.96537596845877,0 18.87775864448236,49.96536330142723,0 18.87462817743799,49.96513876571569,0 18.87381816276715,49.96512042359297,0 18.87250244096195,49.96516696643532,0 18.87139260815889,49.96497262585929,0 18.87056195122745,49.96452906132347,0 18.87037338248203,49.96429476624643,0 18.86812120874493,49.96402900740968,0 18.86663685742275,49.96390399986276,0 18.86513316254004,49.96364474925316,0 18.86443063762454,49.96472479113345,0 18.86411494306757,49.96484777197279,0 18.86322284867523,49.96472305035062,0 18.86283973648971,49.96469907891462,0 18.86120090007836,49.96434150839452,0 18.86094692706016,49.96431181935291,0 18.86038950544415,49.96482846191783,0 18.86009372271502,49.96528271454077,0 18.85990090428508,49.96584378384304,0 18.85944454945531,49.96666542245081,0 18.85860033054076,49.96639740805382,0 18.85625911126533,49.96580758995085,0 18.85565614408385,49.96552747862268,0 18.85509604660269,49.9651250717111,0 18.85441605797641,49.96500793570598,0 18.85410979905359,49.96538902452681,0 18.8537762831633,49.96553159983092,0 18.85129336329941,49.96618096846378,0 18.8483711756212,49.96692163853363,0 18.84676115549192,49.96748575257163,0 18.84592638378464,49.96765272745815,0 18.84381344594453,49.96762868402335,0 18.84159609066921,49.96760213802781,0 18.84039048776886,49.96754780143695,0 18.83915451206318,49.96768929173771,0 18.838474678973,49.96792323698835,0 18.8379437409165,49.96829728794781,0 18.8372456945055,49.96872373051151,0 18.83697925515062,49.96902464619328,0 18.83680756480674,49.96934990746153,0 18.83682117946718,49.96976490838065,0 18.8361133318245,49.96977108152904,0 18.83523829501787,49.97000850487685,0 18.8348233516829,49.97014869177313,0 18.83426715291621,49.97058493120883,0 18.83330768708151,49.97140913975706,0 18.83198497722521,49.97142292731948,0 18.83078368499919,49.97156423667283,0 18.83052987194548,49.97116353419328,0 18.82954046760372,49.97138442096683,0 18.82876330115635,49.97151070491604,0 18.82805545551205,49.97158857406248,0 18.82731954113085,49.9715929224756,0 18.82645702599324,49.97139721612061,0 18.82577303181742,49.97099225731415,0 18.82513603444787,49.97078442779434,0 18.82483846745155,49.97035258227754,0 18.8247310258654,49.96993808474153,0 18.82406835846309,49.96966803172009,0 18.82330258898048,49.96957931740759,0 18.82302589853185,49.96945660684799,0 18.82266408013309,49.96921753663006,0 18.82205484619597,49.96853338517234,0 18.81790294960506,49.97008905406451,0 18.81323285375331,49.97193343919886,0 18.80778927055446,49.97415371795281,0 18.80711594251284,49.97415005297152,0 18.80382940935162,49.97413440002757,0 18.80332046610344,49.9740849863958,0 18.80296673086335,49.9739068736963,0 18.80259428166377,49.97357311095874,0 18.80250283556252,49.97333222374522,0 18.80198607689862,49.97317951171322,0 18.79842849795481,49.97220330899867,0 18.79529484502039,49.97137745154586,0 18.79432890637995,49.97102301449754,0 18.79330118692302,49.97011084322148,0 18.79271398856668,49.96933593660184,0 18.79210297988511,49.96843944956641,0 18.79127956339256,49.96766419828108,0 18.79063347655747,49.96718761640596,0 18.79017055169021,49.96661445423323,0 18.79006794153146,49.96631212236672,0 18.78969364266565,49.96601033321621,0 18.78931989884176,49.96589373449387,0 18.78818957250859,49.96529405413292,0 18.78678881015253,49.96459246785641,0 18.7854752213624,49.96400828518535,0 18.78443339062548,49.96383655356842,0 18.78316512402544,49.96368744074054,0 18.78275466758754,49.96362098482712,0 18.78235863678959,49.96349092595444,0 18.77892083425564,49.96220220448796,0 18.77801866429269,49.96212904367124,0 18.77634661749595,49.96207956934851,0 18.77568630814915,49.9619423621895,0 18.77487173000383,49.96155206574684,0 18.77378169635283,49.96100722215061,0 18.77361892322304,49.96085717716307,0 18.77388504758894,49.96074305899096,0 18.77514698078624,49.95966072095722,0 18.77611453299491,49.95882316114307,0 18.77683359982068,49.95808011907529,0 18.77699350939544,49.95772506971585,0 18.77725495071183,49.95675769995218,0 18.77733058500194,49.95608238529143,0 18.77721560819846,49.95574867379964,0 18.77694202809923,49.95485470975402,0 18.77656948936173,49.95400990695204,0 18.77645128271476,49.95390307017468,0 18.77668497382009,49.95360352834958,0 18.77692329366565,49.95288485142779,0 18.77764652539057,49.95100343970818,0 18.77831845224349,49.94931793659695,0 18.77826284253903,49.9484713264389,0 18.77828912941773,49.94769330672311,0 18.77847820464542,49.94698570320283,0 18.77809920741808,49.94678803397237,0 18.77693121417391,49.94625260155279,0 18.77602910724801,49.94569871678141,0 18.77562765442915,49.94550575973969,0 18.77529911794913,49.94547817010938,0 18.77493069791089,49.94552094122492,0 18.7737563373948,49.94567636924361,0 18.77217970516249,49.94590488953335,0 18.7714609755014,49.94603036060222,0 18.77127007105703,49.94567501087553,0 18.77107844601845,49.94544924585848,0 18.77059944189669,49.94489783113966,0 18.76973155875771,49.94394168750047,0 18.76945222413096,49.94366805932749,0 18.76839398916225,49.94297005865388,0 18.76766368173496,49.94252096103439,0 18.76659327037195,49.94182956172022,0 18.7654535947453,49.94128407683152,0 18.7645902539834,49.94085049301791,0 18.76459583224603,49.94073648169847,0 18.76539431020706,49.93974967488848,0 18.76619977059692,49.93880486238245,0 18.76710984286937,49.93783396136352,0 18.76800522365758,49.93675567211474,0 18.76863989648637,49.93601210594042,0 18.76966744377167,49.9348333538345,0 18.77072750702716,49.93358116012652,0 18.7715597584281,49.9325729675973,0 18.77194080719992,49.93216659518123,0 18.77267530494218,49.93160796312195,0 18.77333334071288,49.93112388173934,0 18.77250609534153,49.93066697888346,0 18.77113309761712,49.92992121118078,0 18.76990990412562,49.92929540458917,0 18.76819296744298,49.92837392683195,0 18.76670616321129,49.92758498527459,0 18.76667178387663,49.92748945315873,0 18.76670393114106,49.92737641534156,0 18.76696566683201,49.92719604278743,0 18.76708453984337,49.92714246257669,0 18.76719156410319,49.92705893440009,0 18.76731742904589,49.92697121740121,0 18.76725253039058,49.92666662049327,0 18.76691485825919,49.92607648501875,0 18.76635377572871,49.92538959595211,0 18.76612808874219,49.92508680523701,0 18.76540332730996,49.9241765146176,0 18.76520101715467,49.92389346141518,0 18.76518708939689,49.92374193705469,0 18.7651065104669,49.92359248465254,0 18.76497679282405,49.92330407309391,0 18.7649128514199,49.92317722251306,0 18.7649582827451,49.92290921498855,0 18.7650515537555,49.92276084959916,0 18.76524696298038,49.92246478662734,0 18.76543137048696,49.92217953551592,0 18.76562966893135,49.92182580260755,0 18.76566626529706,49.92160252040601,0 18.76557169830737,49.92078501338608,0 18.76556103584268,49.92012669490512,0 18.76553107911164,49.91973982922389,0 18.76559646330876,49.91941850839222,0 18.76574855418755,49.91889564009017,0 18.76590611240746,49.91852496486686,0 18.76595675293032,49.91836636870931,0 18.76517210877147,49.91825714859754,0 18.76441248278447,49.91825409483204,0 18.7635964118741,49.91830104554303,0 18.76307369252668,49.91832642405633,0 18.76258743623695,49.91841388450226,0 18.7622271347731,49.91840661078722,0 18.76185765138732,49.91839852974672,0 18.76133055855877,49.91823932857768,0 18.76103078099678,49.91802750648957,0 18.76086202620768,49.91792587143767,0 18.76040618088878,49.91778301929185,0 18.7600526986515,49.91765987758727,0 18.7598072896791,49.91754024820001,0 18.75960526228548,49.91743023750815,0 18.7592283402242,49.91734033212701,0 18.75860132603036,49.91724940280112,0 18.75760736436806,49.91718047033552,0 18.75572988961142,49.91710186932977,0 18.75464599889438,49.91703633169808,0 18.7541399599143,49.91696779300194,0 18.75404580927419,49.91689707863106,0 18.75415791313728,49.91642284596015,0 18.75276647110693,49.91623920348875,0 18.75122991464984,49.91636857233129,0 18.75106587217068,49.91627558097164,0 18.751004465761,49.91582103924731,0 18.75096186185028,49.91545259614696,0 18.75132288293795,49.91524552703775,0 18.75182461725372,49.91483938331105,0 18.75196639637836,49.91463127819905,0 18.75110932908341,49.91448465991301,0 18.75011752835754,49.91436923645457,0 18.74790657219499,49.91482043570741,0 18.74438550090231,49.91556313760583,0 18.74152229902059,49.91617922316842,0 18.7393914735967,49.91666389859111,0 18.73795655670959,49.91727772959925,0 18.7342786410498,49.91885082276411,0 18.72998607243822,49.92072287257035,0 18.72739752301175,49.92187121223575,0 18.72705456162676,49.92205987616082,0 18.72632189194583,49.92256696668228,0 18.72614935880378,49.92290546897956,0 18.72577984789511,49.92306503985721,0 18.72419152539785,49.92365095515411,0 18.72353300738051,49.9239082861794,0 18.72314826525213,49.92383265258109,0 18.72246462358811,49.92347786356874,0 18.72151889836832,49.9232043699467,0 18.71857353486936,49.92255577205701,0 18.71537789442715,49.92192420178264,0 18.71459088857738,49.92179891186532,0 18.71395132920774,49.92154133727293,0 18.71323109806791,49.92117599872478,0 18.71244060241768,49.92072246727243,0 18.71011936061992,49.91992939841104,0 18.70619374793134,49.91863931264204,0 18.70605272936478,49.91954308874304,0 18.70573969124465,49.92148785643784,0 18.70601565658825,49.92209439594968,0 18.70673426354469,49.92290191878148,0 18.70675710477014,49.92307228427252,0 18.70669400786564,49.92322897987741,0 18.70535681220232,49.92369714574771,0 18.70447905108977,49.92406626625915,0 18.70397588188798,49.92411587974262,0 18.70353142271114,49.92404613731773,0 18.70205527008051,49.92368849604911,0 18.70150010825588,49.92356594103293,0 18.70068942876688,49.92361864992098,0 18.70003914709409,49.92367963975643,0 18.6998786266685,49.92367135556632,0 18.70014615989925,49.92494163033179,0 18.70064764380261,49.92513812049887,0 18.70070983796066,49.92746600540666,0 18.70081253848124,49.92957512170244,0 18.7009460383321,49.93164345338511,0 18.70102881891459,49.9335472142204,0 18.70099445068263,49.93441125663076,0 18.69813979066783,49.93423685072296,0 18.6971931766565,49.93418872784524,0 18.69647906961944,49.93411472609601,0 18.6960285123248,49.93413819669131,0 18.69561085326722,49.93424732906675,0 18.69480509700011,49.93456948366303,0 18.69379466842067,49.93502914055216,0 18.69281206650935,49.93538735618126,0 18.69198841049088,49.93564117231065,0 18.69073809124806,49.93592505039682,0 18.6899235226349,49.93608822124676,0 18.68943976085231,49.93602631117025,0 18.68837875662663,49.93595349127055,0 18.68737106530097,49.93579945507144,0 18.68667938379977,49.935670788578,0 18.68617445641523,49.93555190769456,0 18.68599471786305,49.93548693027682,0 18.68587131504356,49.93566656343091,0 18.68519509576369,49.93796931602102,0 18.68465280871652,49.93977487319907,0 18.68435938339956,49.94073908624929,0 18.68262128822593,49.94081715796807,0 18.68124746166702,49.94075720319306,0 18.67956660538934,49.94020597234485,0 18.67888855265326,49.9414043130132,0 18.67820024569946,49.94200609659709,0 18.67762946056918,49.94257025026529,0 18.67705879667067,49.94345432525328,0 18.67659515468188,49.94345907722996,0 18.67593113285952,49.94336989690343,0 18.67475243700416,49.94306756094839,0 18.67414326665508,49.94307360534318,0 18.6737875288214,49.94313908595169,0 18.67352451334459,49.94327473499686,0 18.67314532172556,49.94364676563967,0 18.67277007974707,49.94386987202226,0 18.67240422810087,49.94389806289993,0 18.67035452523694,49.94380174678842,0 18.66705361192249,49.94368701223194,0 18.66453207034044,49.94338718195313,0 18.66281874611486,49.94324208370656,0 18.66059389694954,49.94308145344895,0 18.65890093793723,49.94318075852325,0 18.65781139733165,49.94324537327361,0 18.65712824219159,49.9432936877382,0 18.65696372151892,49.94287752247861,0 18.6569932769311,49.94229490757422,0 18.65707123942214,49.94109259814415,0 18.65702988477376,49.94072886868803,0 18.65690768295518,49.94043542986386,0 18.656110961229,49.93999681853102,0 18.65504080544272,49.93932141504096,0 18.65491538738733,49.93905553543448,0 18.65475455303985,49.93795623680811,0 18.65309629958282,49.93815330602674,0 18.65180023167743,49.93824965660946,0 18.65079114005085,49.93844016516,0 18.64981423022234,49.93836728822112,0 18.64842212276884,49.93822165712413,0 18.64770243086375,49.93815108725862,0 18.64704899741013,49.93811549666963,0 18.64637580677519,49.93811786539126,0 18.64630503210157,49.93903618280946,0 18.64638734508859,49.93932393261565,0 18.64568230208659,49.93949613811647,0 18.64535292819494,49.93972099616925,0 18.64501954301151,49.94005190592566,0 18.64444622105802,49.94033117265923,0 18.64363816000168,49.94038460921824,0 18.64286883183235,49.94048658139644,0 18.64233232311965,49.94071283223732,0 18.64188922749182,49.9408969308411,0 18.64147718451178,49.94106301726608,0 18.64043337360921,49.94174406707685,0 18.63912917606287,49.94253694205619,0 18.63804623132653,49.94323343131477,0 18.63648917751396,49.94431155251876,0 18.635396531317,49.94525701648184,0 18.63475571925039,49.94582261769862,0 18.63454077960359,49.946261070951,0 18.63440606600254,49.94696564240244,0 18.63438315042288,49.94771947236061,0 18.63426054025864,49.94789061566891,0 18.63315925578369,49.94893495318805,0 18.63248182194015,49.94954524940142,0 18.63160267226255,49.94997547471872,0 18.6303677520734,49.95078115876699,0 18.62993841863866,49.95102930598021,0 18.62955260686824,49.95110288134796,0 18.62892702523125,49.95110759028115,0 18.62842598264407,49.95102502336367,0 18.6279664079478,49.95095418760181,0 18.62743455044719,49.95099266503017,0 18.62708866507371,49.95106886843691,0 18.62686355219669,49.95146235103238,0 18.62650160217376,49.95188525479466,0 18.6260844933922,49.95218174518732,0 18.62560575944316,49.95263331965116,0 18.62486802195634,49.95339533539287,0 18.62457629580918,49.95375447571526,0 18.6244350265894,49.95405570603162,0 18.62441025919834,49.9543820180582,0 18.62415872543018,49.95418187088345,0 18.623897413415,49.95407508009004,0 18.62363180956703,49.95399596908623,0 18.62274135322301,49.95400567883604,0 18.62158180414147,49.95397286227306,0 18.62080484383702,49.95403562199348,0 18.61994861303074,49.95393609158477,0 18.61910193630985,49.95384623355346,0 18.61867904908209,49.95387068515169,0 18.6182102098165,49.95399716129157,0 18.61802462705928,49.95422004978767,0 18.61802777376232,49.95443454916047,0 18.61818033619517,49.95460123550389,0 18.61836352804072,49.9547508157108,0 18.61857541655625,49.95479904302714,0 18.61886099639095,49.9549815845512,0 18.61900759459211,49.95511057942915,0 18.61919021360584,49.95531658595103,0 18.61919883828335,49.95551403622235,0 18.61873445910886,49.95535856962001,0 18.61811108600572,49.9552327729291,0 18.61746308779987,49.95519001143544,0 
+						19.28258657742801,50.046414495472,0 19.28227808476064,50.04629004274926,0 19.28191240972199,50.04596769629345,0 19.28157314304991,50.04590929705656,0 19.2809686696735,50.04596852524345,0 19.28074073829145,50.045998065979,0 19.27922391679507,50.04574282991804,0 19.27736184349352,50.04547988272405,0 19.2761741183971,50.04532915572913,0 19.27559484513814,50.0453247709393,0 19.27512717638604,50.04534865059684,0 19.27464873769012,50.04516357496258,0 19.27418108693776,50.04492599956925,0 19.27349590422467,50.04462471999933,0 19.27303393388496,50.04450941325038,0 19.27194477321063,50.04423143962936,0 19.27139223548606,50.04421714101971,0 19.27021728305457,50.04409047673679,0 19.26907552779845,50.04401883126635,0 19.26823889282387,50.04394691197214,0 19.26783191764394,50.04385303237228,0 19.2669307732637,50.04363053217059,0 19.26607471321589,50.04337769253336,0 19.26528482684294,50.04305965579385,0 19.26218140599158,50.04217824014136,0 19.25780496963263,50.04091229979013,0 19.25405516041861,50.0398597177134,0 19.25373816913017,50.03965733206043,0 19.25276220834544,50.03970138607664,0 19.24866304277558,50.03976131766101,0 19.24859589442506,50.03815562488121,0 19.2469900862112,50.03800818544989,0 19.24602770634334,50.03790598590004,0 19.2447947752372,50.0378113324321,0 19.24375267959879,50.03788288434575,0 19.24169252950334,50.03810918344372,0 19.23974616859181,50.03835561292952,0 19.23921709600289,50.03842835082418,0 19.23869990767223,50.03847208015427,0 19.23754483290778,50.03841485729099,0 19.23591494387442,50.03841564623567,0 19.23428512478285,50.038394602134,0 19.2324336015053,50.03835882889407,0 19.23122596376311,50.03832979602446,0 19.23035651416355,50.03830815087964,0 19.22965964835809,50.03829411276841,0 19.22900875477919,50.03829454356525,0 19.22759311747404,50.03839638430643,0 19.22836144302512,50.03954546923639,0 19.22708945868116,50.0397245133773,0 19.22642306617283,50.03981159277507,0 19.22614044076641,50.03984791360848,0 19.22570021764609,50.03992773646986,0 19.22503315580231,50.04008746079057,0 19.22477469956961,50.04000044753695,0 19.22460709177349,50.03955130136183,0 19.22447295390378,50.03912422468987,0 19.22420174782143,50.03903730693096,0 19.2239770090172,50.03896507742424,0 19.22317974616665,50.03966744958765,0 19.22255996468223,50.0401584185762,0 19.22221724678505,50.04042007781688,0 19.22168044760263,50.04066804607511,0 19.22112015002963,50.04085101878018,0 19.22058295496356,50.04099032614484,0 19.2203478091153,50.04071999688582,0 19.22010043364376,50.04058133063317,0 19.21979759477975,50.04044277501078,0 19.21955345078379,50.04057430798656,0 19.21934646608677,50.04061828509398,0 19.21904092124698,50.04049429016646,0 19.21871982565271,50.03964958861867,0 19.21818831287329,50.0384584203603,0 19.21757658273307,50.03714852999646,0 19.21687347070499,50.03540225637153,0 19.21652247860729,50.0345635291313,0 19.21668234642267,50.03451295198474,0 19.21659263494423,50.03435333429025,0 19.21497690490009,50.03466600702409,0 19.21504515971995,50.03483390137533,0 19.21478373163029,50.03476823646967,0 19.21321155939303,50.03508842820835,0 19.2128478003322,50.03569360875761,0 19.21168252389346,50.03545350996374,0 19.21112347033743,50.0356217000714,0 19.21066826230486,50.03569483394449,0 19.21028152561309,50.03576793823801,0 19.21007677012353,50.03576065453031,0 19.209872005418,50.03571683887941,0 19.20959901327293,50.03576801083052,0 19.20940639010135,50.03570952413471,0 19.20854932807045,50.03550490263274,0 19.20669712785417,50.03514000256758,0 19.20585606516447,50.03505246062125,0 19.20542417346893,50.03502329347086,0 19.20532181325482,50.03457798904579,0 19.20519458386284,50.03387668252422,0 19.20495010198833,50.03318457111146,0 19.20482568357043,50.03276800470003,0 19.2047594199201,50.03229339137596,0 19.20468005251375,50.03219121828061,0 19.20447630840303,50.03200159771477,0 19.20356090694589,50.03175459083661,0 19.20453066955945,50.02999445810578,0 19.20429292224083,50.0298345496956,0 19.20361411897462,50.02955157147861,0 19.20250448012265,50.02910080737509,0 19.20163030358601,50.02882330994862,0 19.19999813270686,50.02831978889333,0 19.19831681208478,50.02794037087055,0 19.19684702884358,50.02755496576939,0 19.1980279609366,50.02545337151281,0 19.19553047630901,50.02484790373367,0 19.19327967324208,50.02448212201931,0 19.19101121487108,50.02413939767489,0 19.18957217889553,50.0239208152653,0 19.18822213238549,50.02374604583134,0 19.18770169648402,50.02367373248291,0 19.18662625018051,50.02338286842415,0 19.18587629047153,50.02319998831411,0 19.18555815700826,50.02317785546845,0 19.18460476894984,50.02330864087227,0 19.18407012908458,50.02341023200325,0 19.18181291463181,50.0239344354234,0 19.17822405448377,50.02480879455567,0 19.17954217749988,50.02689910526542,0 19.18000527713872,50.02804409201317,0 19.180704357595,50.03012375466223,0 19.18101064287372,50.03095531927035,0 19.18104450862984,50.03152425764439,0 19.17669547356167,50.031567326254,0 19.1715574014702,50.03163990306121,0 19.17036975175592,50.03165352879363,0 19.16985128527839,50.031718594997,0 19.16929240889908,50.03187189140004,0 19.16889189702327,50.0319086616032,0 19.16845663822651,50.03190899615609,0 19.16797886267932,50.03180673371374,0 19.16682437016607,50.03157282314697,0 19.16673370884502,50.0311785935678,0 19.16674527330927,50.03087198910156,0 19.16689313451055,50.0306749287264,0 19.16721188293992,50.03033199240908,0 19.16746195911521,50.02998164282005,0 19.16756425228057,50.02967498718211,0 19.16768946509409,50.02933921436564,0 19.16776918920612,50.02905453030156,0 19.16783759301659,50.02893788431731,0 19.16740557276592,50.02901063393211,0 19.16705326070301,50.02906164068409,0 19.16666688761333,50.02906153946048,0 19.16623457427634,50.02901004322379,0 19.16594950255012,50.02891453049428,0 19.16560789327281,50.02873881341222,0 19.16545558795849,50.02861810570244,0 19.16477441740333,50.02761023049325,0 19.16428697831274,50.02686582120951,0 19.16419638980305,50.02655196866406,0 19.1642305758237,50.0263256337921,0 19.16435594231681,50.02610377097808,0 19.16462807051622,50.02574597671367,0 19.16499279072368,50.02542516836555,0 19.16543614691859,50.024943518423,0 19.16580065008269,50.02458695577733,0 19.16600592645995,50.02425277092862,0 19.16599486462773,50.02407086250432,0 19.16590429823389,50.02399825560369,0 19.16547278231563,50.02387342791663,0 19.16514331785222,50.02374877218593,0 19.16469796129147,50.02353284302966,0 19.16414155191122,50.02330640164116,0 19.16360777002695,50.02323329923048,0 19.16315348082251,50.02311639071585,0 19.16294872379814,50.02300670244119,0 19.16256291973906,50.02267093137709,0 19.16175949757586,50.02187679077641,0 19.16169232758785,50.0216512657386,0 19.16174961678585,50.02151313193589,0 19.16209089094415,50.02125160362904,0 19.16228412219163,50.02112090842584,0 19.16225055455896,50.02099018353793,0 19.16211477153951,50.02091754078472,0 19.16173008865352,50.02078355922309,0 19.16098285234831,50.02065273734233,0 19.16067761401086,50.02055105677755,0 19.1598969406391,50.02020177236782,0 19.1592629532608,50.01995413808149,0 19.15838936747819,50.01966190092903,0 19.15765429112618,50.01945831702852,0 19.15712153327529,50.01942154408221,0 19.15650761258538,50.01930399158039,0 19.15598565459975,50.01920158382536,0 19.15579361665462,50.01912890157668,0 19.15569657353722,50.01891664880708,0 19.15558373879781,50.01866907821415,0 19.15547082581502,50.01847979962214,0 19.15523329813052,50.01831962306992,0 19.15316083142879,50.01758370756642,0 19.15223679661281,50.01727155044734,0 19.1517720827996,50.01695838420376,0 19.15139681034277,50.01667392896133,0 19.15091004363357,50.01620796872523,0 19.15008317488104,50.01646956089049,0 19.14961713842148,50.01678917289489,0 19.14906935850335,50.01712303062212,0 19.14867627039906,50.01767975523088,0 19.14823089715676,50.01817456002259,0 19.14771866165738,50.01848777964097,0 19.14727577932205,50.01868447756566,0 19.14660532119466,50.01882278548388,0 19.14632931950845,50.01955254139894,0 19.14600991771018,50.0200722389214,0 19.14548918395779,50.02064197267135,0 19.14490902770189,50.02114500303407,0 19.14435199000022,50.02152413763294,0 19.14336463313274,50.02207792821034,0 19.14231696562267,50.0225084381281,0 19.14180190641722,50.02291605983753,0 19.14107457441946,50.02324425513019,0 19.13963831787474,50.02386408582941,0 19.13904668515113,50.02409028216125,0 19.13880813812098,50.02387097637391,0 19.1390243627206,50.02374687988318,0 19.13869483896324,50.02352752769147,0 19.13831763033967,50.02314714974773,0 19.13824812825184,50.02292761025166,0 19.13811308033969,50.02254757200093,0 19.13793581905854,50.02228789932653,0 19.13782260551174,50.02212707036649,0 19.13764080077967,50.02201738419739,0 19.13698155392011,50.02177593821896,0 19.1362540247482,50.02157097918614,0 19.13579797045845,50.02142435961362,0 19.13460553497649,50.02084663752159,0 19.13220569915505,50.01960260599289,0 19.12961223513291,50.01803349235836,0 19.12886530200352,50.01789504084697,0 19.12848708685105,50.01776479583757,0 19.12824922937305,50.01754597325002,0 19.12681865014286,50.01609333651674,0 19.12589080730188,50.01514246572238,0 19.12555103665775,50.01463165643729,0 19.12525679286726,50.01404795156125,0 19.12477047506657,50.01326075931058,0 19.1243510594705,50.01239861153096,0 19.12414664959308,50.0121936024598,0 19.12391947070228,50.01206169546258,0 19.12366952277254,50.01195170162751,0 19.12239912778787,50.01182080121658,0 19.12159216351057,50.01173083825596,0 19.12122882751618,50.01163606583581,0 19.11970835590503,50.01108755548648,0 19.11929916746745,50.01100699956019,0 19.11865135851703,50.01091164730006,0 19.11803774581528,50.01102802981858,0 19.11664148802557,50.01141385876249,0 19.11633527803399,50.01150117230113,0 19.1155927393343,50.01179294950739,0 19.11479765920947,50.01208424301604,0 19.11448030673612,50.01212046089427,0 19.11398206428479,50.0121127617093,0 19.11351830191226,50.01195935611653,0 19.11262790225294,50.01172589439196,0 19.11238157166184,50.01168954633189,0 19.1117263819121,50.01184910868142,0 19.11065273650134,50.01207201912045,0 19.10962460306831,50.01237677024343,0 19.10937838637866,50.01244957477632,0 19.10902055024933,50.01268178155454,0 19.10852487219752,50.01297137632739,0 19.10824912805518,50.01320342648074,0 19.10813468269076,50.01325424708618,0 19.10844005479099,50.01331974396651,0 19.1089399141619,50.01318202583845,0 19.10904081847359,50.01318940319177,0 19.10863117419167,50.01342883112396,0 19.10806287827888,50.0137628304577,0 19.10756631760331,50.01403563547633,0 19.10736191421491,50.01433331970846,0 19.10441356963447,50.01371269815907,0 19.10291891253709,50.01342246521682,0 19.1024651299719,50.01334791597177,0 19.10008385238746,50.01286291292858,0 19.09683191637395,50.01217830380395,0 19.09470465739037,50.01172028649117,0 19.09296317100781,50.01133716501574,0 19.09241768751457,50.01129282157314,0 19.09232614528997,50.01117442253755,0 19.08889810606629,50.01021576718617,0 19.08429609579199,50.00900611778035,0 19.07721728704713,50.0071294417568,0 19.0745335256237,50.00639890885689,0 19.07072351816929,50.00537719723754,0 19.06663888637691,50.00430112435431,0 19.063639503631,50.00352218769808,0 19.06311669360199,50.00328995855224,0 19.06269690264237,50.00223831617549,0 19.0614920471476,50.00229740738726,0 19.06036924582966,50.0021554999018,0 19.05861502556009,50.00216749359677,0 19.05738918545105,50.0019885497026,0 19.0569596042768,50.00188362631569,0 19.05610258981484,50.00162276132646,0 19.05577712532494,50.00145127400034,0 19.05575413161609,50.00132471099018,0 19.05581235864533,50.00122054984509,0 19.05511322014327,50.00002291425341,0 19.05507762673062,49.9996655711386,0 19.05418783098743,49.99820891225369,0 19.05215149044438,49.99857984921679,0 19.05005299440774,49.99857141291457,0 19.04946726102818,49.99861822422606,0 19.0485589748653,49.99880474741452,0 19.04810785417861,49.99862747497927,0 19.0463181176469,49.99592845321388,0 19.04378497148183,49.9960260493331,0 19.04283107364915,49.99589765133275,0 19.04124529352863,49.99540470694084,0 19.04087028846277,49.99497075814554,0 19.04044312694136,49.9947035270452,0 19.03902864361837,49.9941675495255,0 19.03847314403463,49.994159733869,0 19.03587150454589,49.99400197633382,0 19.03448197020316,49.99394148360526,0 19.03286065229775,49.99391097417547,0 19.03289034959649,49.99349856300009,0 19.03248260313206,49.99295189506081,0 19.03231092323238,49.99218832249164,0 19.03104104197186,49.9918690323254,0 19.02991237567428,49.991890814327,0 19.0287467320447,49.99183806528794,0 19.02629217806664,49.99152508020004,0 19.02393602052365,49.9912390400741,0 19.02278874081292,49.99074416060247,0 19.02028114835694,49.98936307981041,0 19.01962830918498,49.9891239821642,0 19.0167556310401,49.98868114611486,0 19.01268528465881,49.98817925162584,0 19.0120303964871,49.98814928023722,0 19.01097873532624,49.98861398466227,0 19.0103006380225,49.98879879438153,0 19.00949906460341,49.98878305911367,0 19.0088133737749,49.98875333971897,0 19.00773684591862,49.98831331604222,0 19.00720357550855,49.98825324852688,0 19.00652126776019,49.98844601934216,0 19.0061166606611,49.98853489223476,0 19.00567586513412,49.98845269721604,0 19.00497320507399,49.98808695721312,0 19.00454617954347,49.98792295107592,0 19.00407223005677,49.98785565127583,0 19.00280335082015,49.98784773048611,0 19.00049364785727,49.98742301823611,0 18.99940710261966,49.9867055523762,0 18.9986087368801,49.98610990979281,0 18.99805410421057,49.98589373682238,0 18.9951723983184,49.9853005742278,0 18.99367116668847,49.98497172940515,0 18.99155609547786,49.98468197340418,0 18.99094420553327,49.98450298140152,0 18.99050866850944,49.98421292267433,0 18.99009884070681,49.98386281756284,0 18.98950724071505,49.983572113977,0 18.98897466295128,49.98340785842678,0 18.9883855841341,49.98338502897502,0 18.98703101907214,49.98334233673276,0 18.98561742355146,49.98306571746335,0 18.98504989408912,49.98279087679165,0 18.98428894785251,49.98253774548111,0 18.98383747474861,49.98230667016028,0 18.98363504443462,49.98187721338938,0 18.98345420081068,49.98165566558195,0 18.98132344324793,49.98142922347303,0 18.98001809548293,49.98124190665057,0 18.97509993316991,49.9801777002593,0 18.97163863865158,49.97942687081352,0 18.96783137598965,49.9784841686313,0 18.9676834223426,49.9783803494253,0 18.96567698324525,49.97794713808197,0 18.96495370805301,49.9766768300813,0 18.96472052434583,49.97608957120511,0 18.96465260970451,49.97552566990891,0 18.96122916992767,49.97605648872435,0 18.95977464315698,49.97630472454193,0 18.95904038200003,49.9757554486699,0 18.95820125008292,49.97581254707235,0 18.9582524635057,49.97607932206275,0 18.95817157627169,49.97625751338474,0 18.95798737826768,49.97633901112038,0 18.95786084694592,49.97640570687793,0 18.95754667527792,49.97646474760305,0 18.95672708940861,49.97653807606109,0 18.95519105030517,49.97658060197716,0 18.95385847081862,49.97681934362489,0 18.95282178990211,49.97701026454642,0 18.95280291164587,49.97720924454203,0 18.9521168413164,49.97774698614161,0 18.9514822339778,49.97807790483441,0 18.94936043287081,49.97866205492672,0 18.94865307088428,49.9788533383791,0 18.94827208875266,49.97908977803753,0 18.94808675000685,49.97938573852441,0 18.94792511656568,49.97949660119736,0 18.94574403914994,49.9803607922045,0 18.94527437177419,49.98051513084647,0 18.94461376933616,49.98049935359832,0 18.943996304752,49.98034309344646,0 18.94343183790316,49.98029784940759,0 18.94310985377557,49.98031959184591,0 18.9422466827485,49.98054025080524,0 18.94146198716671,49.9796156598555,0 18.94114421644401,49.97917150499606,0 18.94085787521566,49.97890497405246,0 18.94058237172081,49.97872713024418,0 18.94013477143271,49.97871178554755,0 18.93979117587315,49.97886667619838,0 18.93947492632176,49.97910994193477,0 18.93890915252081,49.97954908941967,0 18.93844918836649,49.97993062144665,0 18.93794921822378,49.98012876634511,0 18.93719929108356,49.98017970950605,0 18.93634759702322,49.9801427666123,0 18.93577682005607,49.9800598521747,0 18.93529555431313,49.97995835284768,0 18.93457245858731,49.97997050302136,0 18.93389357290189,49.98002215900183,0 18.93312967594418,49.98008284199193,0 18.93258995331459,49.98013553551073,0 18.93230757528001,49.98003645975961,0 18.93190959677508,49.9798402645034,0 18.9317355142561,49.97968494713119,0 18.93172431027746,49.97955028957882,0 18.93133490352669,49.97901817277738,0 18.93104140402953,49.97887189509527,0 18.93049360963762,49.97845135772467,0 18.93000333546712,49.97816986492046,0 18.92937799448896,49.9778111566484,0 18.92891944281035,49.97742103691864,0 18.92859844741862,49.97700085087527,0 18.92832469122505,49.97654295682319,0 18.92820232949586,49.97610724696276,0 18.92824468569667,49.97562544108787,0 18.92825521362827,49.97517183530252,0 18.92834064254821,49.97467882479194,0 18.92842326478016,49.97427032145665,0 18.92872070217724,49.97372725227255,0 18.92908048394128,49.97315936169089,0 18.92949874869217,49.9726703159134,0 18.92965902761645,49.97225658812168,0 18.92988384431249,49.97164798300634,0 18.93028856649621,49.97035193607001,0 18.93054728161146,49.96952698567031,0 18.92848150619088,49.96884090308657,0 18.92654019901303,49.96820037872831,0 18.9249764725455,49.96771275646213,0 18.92432236882465,49.96748519888806,0 18.92279765005327,49.96685708166811,0 18.92050787973659,49.96596338936558,0 18.91924750780066,49.96601595219218,0 18.91691670989614,49.96614843503708,0 18.91473974784175,49.96624750104215,0 18.91181746442396,49.96641322412609,0 18.91030222459018,49.96649417673154,0 18.90877052074775,49.96656422487584,0 18.9075997052042,49.96654363564344,0 18.90692630790258,49.96653022755936,0 18.90606724354511,49.96639657340605,0 18.90521346775636,49.96625287557929,0 18.90439214242512,49.96606894597115,0 18.90356896366172,49.96588535932073,0 18.90293255592841,49.96583197017642,0 18.90203022210977,49.96591318792049,0 18.90125654543446,49.96593744904221,0 18.90005001779782,49.96573955320162,0 18.89904803586523,49.96561129274724,0 18.89799093074889,49.96535738832511,0 18.89706191841028,49.96513900138796,0 18.89541437870987,49.9646989668703,0 18.89524523553156,49.96479601149958,0 18.8949426168699,49.96555943451844,0 18.89123152550668,49.96533555763719,0 18.89047588431169,49.96535011637169,0 18.8889437168577,49.96524417744102,0 18.88785000864518,49.96519532171084,0 18.88723624002467,49.96524579686668,0 18.88578091467337,49.96499824653334,0 18.88392883432508,49.96471629018446,0 18.8833720263598,49.96466561845281,0 18.88312080710481,49.96479078522773,0 18.88260831597733,49.96519534195739,0 18.88234340822268,49.96529947157524,0 18.8820325065561,49.96537104441018,0 18.88084244292874,49.96520496217807,0 18.88047177260585,49.96522278449596,0 18.88026925607512,49.96533941639184,0 18.8798962858212,49.96557378835773,0 18.87945390382972,49.96568194175241,0 18.8791305887104,49.96571171794315,0 18.87852157553643,49.96571059352485,0 18.87831238939972,49.96566174309738,0 18.87819593108743,49.96551305648327,0 18.87811075546023,49.96537596845877,0 18.87775864448236,49.96536330142723,0 18.87462817743799,49.96513876571569,0 18.87381816276715,49.96512042359297,0 18.87250244096195,49.96516696643532,0 18.87139260815889,49.96497262585929,0 18.87056195122745,49.96452906132347,0 18.87037338248203,49.96429476624643,0 18.86812120874493,49.96402900740968,0 18.86663685742275,49.96390399986276,0 18.86513316254004,49.96364474925316,0 18.86443063762454,49.96472479113345,0 18.86411494306757,49.96484777197279,0 18.86322284867523,49.96472305035062,0 18.86283973648971,49.96469907891462,0 18.86120090007836,49.96434150839452,0 18.86094692706016,49.96431181935291,0 18.86038950544415,49.96482846191783,0 18.86009372271502,49.96528271454077,0 18.85990090428508,49.96584378384304,0 18.85944454945531,49.96666542245081,0 18.85860033054076,49.96639740805382,0 18.85625911126533,49.96580758995085,0 18.85565614408385,49.96552747862268,0 18.85509604660269,49.9651250717111,0 18.85441605797641,49.96500793570598,0 18.85410979905359,49.96538902452681,0 18.8537762831633,49.96553159983092,0 18.85129336329941,49.96618096846378,0 18.8483711756212,49.96692163853363,0 18.84676115549192,49.96748575257163,0 18.84592638378464,49.96765272745815,0 18.84381344594453,49.96762868402335,0 18.84159609066921,49.96760213802781,0 18.84039048776886,49.96754780143695,0 18.83915451206318,49.96768929173771,0 18.838474678973,49.96792323698835,0 18.8379437409165,49.96829728794781,0 18.8372456945055,49.96872373051151,0 18.83697925515062,49.96902464619328,0 18.83680756480674,49.96934990746153,0 18.83682117946718,49.96976490838065,0 18.8361133318245,49.96977108152904,0 18.83523829501787,49.97000850487685,0 18.8348233516829,49.97014869177313,0 18.83426715291621,49.97058493120883,0 18.83330768708151,49.97140913975706,0 18.83198497722521,49.97142292731948,0 18.83078368499919,49.97156423667283,0 18.83052987194548,49.97116353419328,0 18.82954046760372,49.97138442096683,0 18.82876330115635,49.97151070491604,0 18.82805545551205,49.97158857406248,0 18.82731954113085,49.9715929224756,0 18.82645702599324,49.97139721612061,0 18.82577303181742,49.97099225731415,0 18.82513603444787,49.97078442779434,0 18.82483846745155,49.97035258227754,0 18.8247310258654,49.96993808474153,0 18.82406835846309,49.96966803172009,0 18.82330258898048,49.96957931740759,0 18.82302589853185,49.96945660684799,0 18.82266408013309,49.96921753663006,0 18.82205484619597,49.96853338517234,0 18.81790294960506,49.97008905406451,0 18.81323285375331,49.97193343919886,0 18.80778927055446,49.97415371795281,0 18.80711594251284,49.97415005297152,0 18.80382940935162,49.97413440002757,0 18.80332046610344,49.9740849863958,0 18.80296673086335,49.9739068736963,0 18.80259428166377,49.97357311095874,0 18.80250283556252,49.97333222374522,0 18.80198607689862,49.97317951171322,0 18.79842849795481,49.97220330899867,0 18.79529484502039,49.97137745154586,0 18.79432890637995,49.97102301449754,0 18.79330118692302,49.97011084322148,0 18.79271398856668,49.96933593660184,0 18.79210297988511,49.96843944956641,0 18.79127956339256,49.96766419828108,0 18.79063347655747,49.96718761640596,0 18.79017055169021,49.96661445423323,0 18.79006794153146,49.96631212236672,0 18.78969364266565,49.96601033321621,0 18.78931989884176,49.96589373449387,0 18.78818957250859,49.96529405413292,0 18.78678881015253,49.96459246785641,0 18.7854752213624,49.96400828518535,0 18.78443339062548,49.96383655356842,0 18.78316512402544,49.96368744074054,0 18.78275466758754,49.96362098482712,0 18.78235863678959,49.96349092595444,0 18.77892083425564,49.96220220448796,0 18.77801866429269,49.96212904367124,0 18.77634661749595,49.96207956934851,0 18.77568630814915,49.9619423621895,0 18.77487173000383,49.96155206574684,0 18.77378169635283,49.96100722215061,0 18.77361892322304,49.96085717716307,0 18.77388504758894,49.96074305899096,0 18.77514698078624,49.95966072095722,0 18.77611453299491,49.95882316114307,0 18.77683359982068,49.95808011907529,0 18.77699350939544,49.95772506971585,0 18.77725495071183,49.95675769995218,0 18.77733058500194,49.95608238529143,0 18.77721560819846,49.95574867379964,0 18.77694202809923,49.95485470975402,0 18.77656948936173,49.95400990695204,0 18.77645128271476,49.95390307017468,0 18.77668497382009,49.95360352834958,0 18.77692329366565,49.95288485142779,0 18.77764652539057,49.95100343970818,0 18.77831845224349,49.94931793659695,0 18.77826284253903,49.9484713264389,0 18.77828912941773,49.94769330672311,0 18.77847820464542,49.94698570320283,0 18.77809920741808,49.94678803397237,0 18.77693121417391,49.94625260155279,0 18.77602910724801,49.94569871678141,0 18.77562765442915,49.94550575973969,0 18.77529911794913,49.94547817010938,0 18.77493069791089,49.94552094122492,0 18.7737563373948,49.94567636924361,0 18.77217970516249,49.94590488953335,0 18.7714609755014,49.94603036060222,0 18.77127007105703,49.94567501087553,0 18.77107844601845,49.94544924585848,0 18.77059944189669,49.94489783113966,0 18.76973155875771,49.94394168750047,0 18.76945222413096,49.94366805932749,0 18.76839398916225,49.94297005865388,0 18.76766368173496,49.94252096103439,0 18.76659327037195,49.94182956172022,0 18.7654535947453,49.94128407683152,0 18.7645902539834,49.94085049301791,0 18.76459583224603,49.94073648169847,0 18.76539431020706,49.93974967488848,0 18.76619977059692,49.93880486238245,0 18.76710984286937,49.93783396136352,0 18.76800522365758,49.93675567211474,0 18.76863989648637,49.93601210594042,0 18.76966744377167,49.9348333538345,0 18.77072750702716,49.93358116012652,0 18.7715597584281,49.9325729675973,0 18.77194080719992,49.93216659518123,0 18.77267530494218,49.93160796312195,0 18.77333334071288,49.93112388173934,0 18.77250609534153,49.93066697888346,0 18.77113309761712,49.92992121118078,0 18.76990990412562,49.92929540458917,0 18.76819296744298,49.92837392683195,0 18.76670616321129,49.92758498527459,0 18.76667178387663,49.92748945315873,0 18.76670393114106,49.92737641534156,0 18.76696566683201,49.92719604278743,0 18.76708453984337,49.92714246257669,0 18.76719156410319,49.92705893440009,0 18.76731742904589,49.92697121740121,0 18.76725253039058,49.92666662049327,0 18.76691485825919,49.92607648501875,0 18.76635377572871,49.92538959595211,0 18.76612808874219,49.92508680523701,0 18.76540332730996,49.9241765146176,0 18.76520101715467,49.92389346141518,0 18.76518708939689,49.92374193705469,0 18.7651065104669,49.92359248465254,0 18.76497679282405,49.92330407309391,0 18.7649128514199,49.92317722251306,0 18.7649582827451,49.92290921498855,0 18.7650515537555,49.92276084959916,0 18.76524696298038,49.92246478662734,0 18.76543137048696,49.92217953551592,0 18.76562966893135,49.92182580260755,0 18.76566626529706,49.92160252040601,0 18.76557169830737,49.92078501338608,0 18.76556103584268,49.92012669490512,0 18.76553107911164,49.91973982922389,0 18.76559646330876,49.91941850839222,0 18.76574855418755,49.91889564009017,0 18.76590611240746,49.91852496486686,0 18.76595675293032,49.91836636870931,0 18.76517210877147,49.91825714859754,0 18.76441248278447,49.91825409483204,0 18.7635964118741,49.91830104554303,0 18.76307369252668,49.91832642405633,0 18.76258743623695,49.91841388450226,0 18.7622271347731,49.91840661078722,0 18.76185765138732,49.91839852974672,0 18.76133055855877,49.91823932857768,0 18.76103078099678,49.91802750648957,0 18.76086202620768,49.91792587143767,0 18.76040618088878,49.91778301929185,0 18.7600526986515,49.91765987758727,0 18.7598072896791,49.91754024820001,0 18.75960526228548,49.91743023750815,0 18.7592283402242,49.91734033212701,0 18.75860132603036,49.91724940280112,0 18.75760736436806,49.91718047033552,0 18.75572988961142,49.91710186932977,0 18.75464599889438,49.91703633169808,0 18.7541399599143,49.91696779300194,0 18.75404580927419,49.91689707863106,0 18.75415791313728,49.91642284596015,0 18.75276647110693,49.91623920348875,0 18.75122991464984,49.91636857233129,0 18.75106587217068,49.91627558097164,0 18.751004465761,49.91582103924731,0 18.75096186185028,49.91545259614696,0 18.75132288293795,49.91524552703775,0 18.75182461725372,49.91483938331105,0 18.75196639637836,49.91463127819905,0 18.75110932908341,49.91448465991301,0 18.75011752835754,49.91436923645457,0 18.74790657219499,49.91482043570741,0 18.74438550090231,49.91556313760583,0 18.74152229902059,49.91617922316842,0 18.7393914735967,49.91666389859111,0 18.73795655670959,49.91727772959925,0 18.7342786410498,49.91885082276411,0 18.72998607243822,49.92072287257035,0 18.72739752301175,49.92187121223575,0 18.72705456162676,49.92205987616082,0 18.72632189194583,49.92256696668228,0 18.72614935880378,49.92290546897956,0 18.72577984789511,49.92306503985721,0 18.72419152539785,49.92365095515411,0 18.72353300738051,49.9239082861794,0 18.72314826525213,49.92383265258109,0 18.72246462358811,49.92347786356874,0 18.72151889836832,49.9232043699467,0 18.71857353486936,49.92255577205701,0 18.71537789442715,49.92192420178264,0 18.71459088857738,49.92179891186532,0 18.71395132920774,49.92154133727293,0 18.71323109806791,49.92117599872478,0 18.71244060241768,49.92072246727243,0 18.71011936061992,49.91992939841104,0 18.70619374793134,49.91863931264204,0 18.70605272936478,49.91954308874304,0 18.70573969124465,49.92148785643784,0 18.70601565658825,49.92209439594968,0 18.70673426354469,49.92290191878148,0 18.70675710477014,49.92307228427252,0 18.70669400786564,49.92322897987741,0 18.70535681220232,49.92369714574771,0 18.70447905108977,49.92406626625915,0 18.70397588188798,49.92411587974262,0 18.70353142271114,49.92404613731773,0 18.70205527008051,49.92368849604911,0 18.70150010825588,49.92356594103293,0 18.70068942876688,49.92361864992098,0 18.70003914709409,49.92367963975643,0 18.6998786266685,49.92367135556632,0 18.70014615989925,49.92494163033179,0 18.70064764380261,49.92513812049887,0 18.70070983796066,49.92746600540666,0 18.70081253848124,49.92957512170244,0 18.7009460383321,49.93164345338511,0 18.70102881891459,49.9335472142204,0 18.70099445068263,49.93441125663076,0 18.69813979066783,49.93423685072296,0 18.6971931766565,49.93418872784524,0 18.69647906961944,49.93411472609601,0 18.6960285123248,49.93413819669131,0 18.69561085326722,49.93424732906675,0 18.69480509700011,49.93456948366303,0 18.69379466842067,49.93502914055216,0 18.69281206650935,49.93538735618126,0 18.69198841049088,49.93564117231065,0 18.69073809124806,49.93592505039682,0 18.6899235226349,49.93608822124676,0 18.68943976085231,49.93602631117025,0 18.68837875662663,49.93595349127055,0 18.68737106530097,49.93579945507144,0 18.68667938379977,49.935670788578,0 18.68617445641523,49.93555190769456,0 18.68599471786305,49.93548693027682,0 18.68587131504356,49.93566656343091,0 18.68519509576369,49.93796931602102,0 18.68465280871652,49.93977487319907,0 18.68435938339956,49.94073908624929,0 18.68262128822593,49.94081715796807,0 18.68124746166702,49.94075720319306,0 18.67956660538934,49.94020597234485,0 18.67888855265326,49.9414043130132,0 18.67820024569946,49.94200609659709,0 18.67762946056918,49.94257025026529,0 18.67705879667067,49.94345432525328,0 18.67659515468188,49.94345907722996,0 18.67593113285952,49.94336989690343,0 18.67475243700416,49.94306756094839,0 18.67414326665508,49.94307360534318,0 18.6737875288214,49.94313908595169,0 18.67352451334459,49.94327473499686,0 18.67314532172556,49.94364676563967,0 18.67277007974707,49.94386987202226,0 18.67240422810087,49.94389806289993,0 18.67035452523694,49.94380174678842,0 18.66705361192249,49.94368701223194,0 18.66453207034044,49.94338718195313,0 18.66281874611486,49.94324208370656,0 18.66059389694954,49.94308145344895,0 18.65890093793723,49.94318075852325,0 18.65781139733165,49.94324537327361,0 18.65712824219159,49.9432936877382,0 18.65696372151892,49.94287752247861,0 18.6569932769311,49.94229490757422,0 18.65707123942214,49.94109259814415,0 18.65702988477376,49.94072886868803,0 18.65690768295518,49.94043542986386,0 18.656110961229,49.93999681853102,0 18.65504080544272,49.93932141504096,0 18.65491538738733,49.93905553543448,0 18.65475455303985,49.93795623680811,0 18.65309629958282,49.93815330602674,0 18.65180023167743,49.93824965660946,0 18.65079114005085,49.93844016516,0 18.64981423022234,49.93836728822112,0 18.64842212276884,49.93822165712413,0 18.64770243086375,49.93815108725862,0 18.64704899741013,49.93811549666963,0 18.64637580677519,49.93811786539126,0 18.64630503210157,49.93903618280946,0 18.64638734508859,49.93932393261565,0 18.64568230208659,49.93949613811647,0 18.64535292819494,49.93972099616925,0 18.64501954301151,49.94005190592566,0 18.64444622105802,49.94033117265923,0 18.64363816000168,49.94038460921824,0 18.64286883183235,49.94048658139644,0 18.64233232311965,49.94071283223732,0 18.64188922749182,49.9408969308411,0 18.64147718451178,49.94106301726608,0 18.64043337360921,49.94174406707685,0 18.63912917606287,49.94253694205619,0 18.63804623132653,49.94323343131477,0 18.63648917751396,49.94431155251876,0 18.635396531317,49.94525701648184,0 18.63475571925039,49.94582261769862,0 18.63454077960359,49.946261070951,0 18.63440606600254,49.94696564240244,0 18.63438315042288,49.94771947236061,0 18.63426054025864,49.94789061566891,0 18.63315925578369,49.94893495318805,0 18.63248182194015,49.94954524940142,0 18.63160267226255,49.94997547471872,0 18.6303677520734,49.95078115876699,0 18.62993841863866,49.95102930598021,0 18.62955260686824,49.95110288134796,0 18.62892702523125,49.95110759028115,0 18.62842598264407,49.95102502336367,0 18.6279664079478,49.95095418760181,0 18.62743455044719,49.95099266503017,0 18.62708866507371,49.95106886843691,0 18.62686355219669,49.95146235103238,0 18.62650160217376,49.95188525479466,0 18.6260844933922,49.95218174518732,0 18.62560575944316,49.95263331965116,0 18.62486802195634,49.95339533539287,0 18.62457629580918,49.95375447571526,0 18.6244350265894,49.95405570603162,0 18.62441025919834,49.9543820180582,0 18.62415872543018,49.95418187088345,0 18.623897413415,49.95407508009004,0 18.62363180956703,49.95399596908623,0 18.62274135322301,49.95400567883604,0 18.62158180414147,49.95397286227306,0 18.62080484383702,49.95403562199348,0 18.61994861303074,49.95393609158477,0 18.61910193630985,49.95384623355346,0 18.61867904908209,49.95387068515169,0 18.6182102098165,49.95399716129157,0 18.61802462705928,49.95422004978767,0 18.61802777376232,49.95443454916047,0 18.61818033619517,49.95460123550389,0 18.61836352804072,49.9547508157108,0 18.61857541655625,49.95479904302714,0 18.61886099639095,49.9549815845512,0 18.61900759459211,49.95511057942915,0 18.61919021360584,49.95531658595103,0 18.61919883828335,49.95551403622235,0 18.61873445910886,49.95535856962001,0 18.61811108600572,49.9552327729291,0 18.61746308779987,49.95519001143544,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -2511,11 +2583,11 @@ Nieznane odcinki: Rybnik - Niewiesze; Toszek - Lubliniec</description>
 				<name>Greenways - Kraków - Wiedeń</name>
 				<visibility>0</visibility>
 				<open>1</open>
-				<styleUrl>#msn_ylw-pushpin802</styleUrl>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
-						19.1073181029747,50.01435400499022,0 19.10441356963447,50.01371269815907,0 19.10291891253709,50.01342246521682,0 19.1024651299719,50.01334791597177,0 19.10008385238746,50.01286291292858,0 19.09683191637395,50.01217830380395,0 19.09470465739037,50.01172028649117,0 19.09296317100781,50.01133716501574,0 19.09241768751457,50.01129282157314,0 19.09232614528997,50.01117442253755,0 19.08889810606629,50.01021576718617,0 19.08429609579199,50.00900611778035,0 19.07721728704713,50.0071294417568,0 19.0745335256237,50.00639890885689,0 19.07072351816929,50.00537719723754,0 19.06663888637691,50.00430112435431,0 19.063639503631,50.00352218769808,0 19.06311669360199,50.00328995855224,0 19.06269690264237,50.00223831617549,0 19.0614920471476,50.00229740738726,0 19.06036924582966,50.0021554999018,0 19.05861502556009,50.00216749359677,0 19.05738918545105,50.0019885497026,0 19.0569596042768,50.00188362631569,0 19.05610258981484,50.00162276132646,0 19.05577712532494,50.00145127400034,0 19.05575413161609,50.00132471099018,0 19.05581235864533,50.00122054984509,0 19.05511322014327,50.00002291425341,0 19.05507762673062,49.9996655711386,0 19.05418783098743,49.99820891225369,0 19.05215149044438,49.99857984921679,0 19.05005299440774,49.99857141291457,0 19.04946726102818,49.99861822422606,0 19.0485589748653,49.99880474741452,0 19.04810785417861,49.99862747497927,0 19.0463181176469,49.99592845321388,0 19.04378497148183,49.9960260493331,0 19.04283107364915,49.99589765133275,0 19.04124529352863,49.99540470694084,0 19.04087028846277,49.99497075814554,0 19.04044312694136,49.9947035270452,0 19.03902864361837,49.9941675495255,0 19.03847314403463,49.994159733869,0 19.03587150454589,49.99400197633382,0 19.03448197020316,49.99394148360526,0 19.03286065229775,49.99391097417547,0 19.03289034959649,49.99349856300009,0 19.03248260313206,49.99295189506081,0 19.03231092323238,49.99218832249164,0 19.03104104197186,49.9918690323254,0 19.02991237567428,49.991890814327,0 19.0287467320447,49.99183806528794,0 19.02629217806664,49.99152508020004,0 19.02393602052365,49.9912390400741,0 19.02278874081292,49.99074416060247,0 19.02028114835694,49.98936307981041,0 19.01962830918498,49.9891239821642,0 19.0167556310401,49.98868114611486,0 19.01268528465881,49.98817925162584,0 19.0120303964871,49.98814928023722,0 19.01097873532624,49.98861398466227,0 19.0103006380225,49.98879879438153,0 19.00949906460341,49.98878305911367,0 19.0088133737749,49.98875333971897,0 19.00773684591862,49.98831331604222,0 19.00720357550855,49.98825324852688,0 19.00652126776019,49.98844601934216,0 19.0061166606611,49.98853489223476,0 19.00567586513412,49.98845269721604,0 19.00497320507399,49.98808695721312,0 19.00454617954347,49.98792295107592,0 19.00407223005677,49.98785565127583,0 19.00280335082015,49.98784773048611,0 19.00049364785727,49.98742301823611,0 18.99940710261966,49.9867055523762,0 18.9986087368801,49.98610990979281,0 18.99805410421057,49.98589373682238,0 18.9951723983184,49.9853005742278,0 18.99367116668847,49.98497172940515,0 18.99155609547786,49.98468197340418,0 18.99094420553327,49.98450298140152,0 18.99050866850944,49.98421292267433,0 18.99009884070681,49.98386281756284,0 18.98950724071505,49.983572113977,0 18.98897466295128,49.98340785842678,0 18.9883855841341,49.98338502897502,0 18.98703101907214,49.98334233673276,0 18.98561742355146,49.98306571746335,0 18.98504989408912,49.98279087679165,0 18.98428894785251,49.98253774548111,0 18.98383747474861,49.98230667016028,0 18.98363504443462,49.98187721338938,0 18.98345420081068,49.98165566558195,0 18.98132344324793,49.98142922347303,0 18.98001809548293,49.98124190665057,0 18.97509993316991,49.9801777002593,0 18.97163863865158,49.97942687081352,0 18.96783137598965,49.9784841686313,0 18.9676834223426,49.9783803494253,0 18.96567698324525,49.97794713808197,0 18.96495370805301,49.9766768300813,0 18.96472052434583,49.97608957120511,0 18.96465260970451,49.97552566990891,0 18.96122916992767,49.97605648872435,0 18.95977464315698,49.97630472454193,0 18.95904038200003,49.9757554486699,0 18.95820125008292,49.97581254707235,0 18.9582524635057,49.97607932206275,0 18.95817157627169,49.97625751338474,0 18.95798737826768,49.97633901112038,0 18.95786084694592,49.97640570687793,0 18.95754667527792,49.97646474760305,0 18.95672708940861,49.97653807606109,0 18.95519105030517,49.97658060197716,0 18.95385847081862,49.97681934362489,0 18.95282178990211,49.97701026454642,0 18.95280291164587,49.97720924454203,0 18.9521168413164,49.97774698614161,0 18.9514822339778,49.97807790483441,0 18.94936043287081,49.97866205492672,0 18.94865307088428,49.9788533383791,0 18.94827208875266,49.97908977803753,0 18.94808675000685,49.97938573852441,0 18.94792511656568,49.97949660119736,0 18.94574403914994,49.9803607922045,0 18.94527437177419,49.98051513084647,0 18.94461376933616,49.98049935359832,0 18.943996304752,49.98034309344646,0 18.94343183790316,49.98029784940759,0 18.94310985377557,49.98031959184591,0 18.9422466827485,49.98054025080524,0 18.94146198716671,49.9796156598555,0 18.94114421644401,49.97917150499606,0 18.94085787521566,49.97890497405246,0 18.94058237172081,49.97872713024418,0 18.94013477143271,49.97871178554755,0 18.93979117587315,49.97886667619838,0 18.93947492632176,49.97910994193477,0 18.93890915252081,49.97954908941967,0 18.93844918836649,49.97993062144665,0 18.93794921822378,49.98012876634511,0 18.93719929108356,49.98017970950605,0 18.93634759702322,49.9801427666123,0 18.93577682005607,49.9800598521747,0 18.93529555431313,49.97995835284768,0 18.93457245858731,49.97997050302136,0 18.93389357290189,49.98002215900183,0 18.93312967594418,49.98008284199193,0 18.93258995331459,49.98013553551073,0 18.93230757528001,49.98003645975961,0 18.93190959677508,49.9798402645034,0 18.9317355142561,49.97968494713119,0 18.93172431027746,49.97955028957882,0 18.93133490352669,49.97901817277738,0 18.93104140402953,49.97887189509527,0 18.93049360963762,49.97845135772467,0 18.93000333546712,49.97816986492046,0 18.92937799448896,49.9778111566484,0 18.92891944281035,49.97742103691864,0 18.92859844741862,49.97700085087527,0 18.92832469122505,49.97654295682319,0 18.92820232949586,49.97610724696276,0 18.92824468569667,49.97562544108787,0 18.92825521362827,49.97517183530252,0 18.92834064254821,49.97467882479194,0 18.92842326478016,49.97427032145665,0 18.92872070217724,49.97372725227255,0 18.92908048394128,49.97315936169089,0 18.92949874869217,49.9726703159134,0 18.92965902761645,49.97225658812168,0 18.92988384431249,49.97164798300634,0 18.93028856649621,49.97035193607001,0 18.93054728161146,49.96952698567031,0 18.92848150619088,49.96884090308657,0 18.92654019901303,49.96820037872831,0 18.9249764725455,49.96771275646213,0 18.92432236882465,49.96748519888806,0 18.92279765005327,49.96685708166811,0 18.92050787973659,49.96596338936558,0 18.91924750780066,49.96601595219218,0 18.91697582553572,49.96616535982101,0 18.9138560231097,49.96639928750048,0 18.91172630577175,49.96653271012373,0 18.91037373809525,49.96663447697252,0 18.90944471563591,49.96662527345732,0 18.90783220335389,49.96666712206858,0 18.90709810113234,49.96665011793967,0 18.90635203542447,49.9665272115039,0 18.90561944681033,49.96643300284229,0 18.90482847659015,49.96629017217309,0 18.90380789612642,49.96606048294765,0 18.90361074366476,49.96600701895842,0 18.90362035245148,49.96587087134355,0 18.90359150680545,49.96567978730525,0 18.90350659691294,49.96541165564996,0 18.90344030513759,49.96520473199993,0 18.90348405832624,49.96509707118064,0 18.90352212710569,49.96488339857748,0 18.90352987362333,49.96473213789993,0 18.90346962228779,49.96456476902763,0 18.90330715632985,49.96419038313083,0 18.90323302945671,49.96399056718842,0 18.90318255698219,49.96373160929445,0 18.90314617265174,49.96350541894623,0 18.90316123055041,49.96324847296802,0 18.90316384975366,49.96311671263793,0 18.90319550432685,49.96286906802661,0 18.90328453075667,49.96267100202527,0 18.9034764644928,49.96245099828815,0 18.90389946934498,49.96203633690643,0 18.90417452756996,49.96177296806929,0 18.90447592960999,49.96135810844318,0 18.90475022788478,49.96103155315758,0 18.90508612329782,49.96061962528655,0 18.90475357664493,49.96055139989724,0 18.90436973198385,49.96043113457561,0 18.90393062197822,49.9603304224918,0 18.90356627519002,49.96021113127983,0 18.90300601596916,49.95997260802487,0 18.90261950374643,49.95981231563617,0 18.90224070545492,49.95966428857303,0 18.90259761506764,49.95942632475766,0 18.90303753431407,49.95920081616124,0 18.90323049345312,49.95906126932758,0 18.90341192491582,49.95887779260533,0 18.90378311562764,49.95851674972291,0 18.90452433782618,49.95779362856695,0 18.90497047074357,49.95738634879169,0 18.90514350950135,49.95716787285598,0 18.90529918099157,49.95697547289461,0 18.90543808336232,49.95674855050394,0 18.90556974714201,49.95654496448664,0 18.90570173616579,49.95627825988177,0 18.90585739257597,49.955995689406,0 
+						19.28252031560622,50.04640186670665,0 19.28225642587152,50.04625436125128,0 19.28195281022218,50.04599178620013,0 19.28155866561049,50.04592390732236,0 19.28075646301662,50.04598249754189,0 19.27990823738792,50.04583705001703,0 19.27793650124802,50.04556623699848,0 19.27605820455146,50.04532337517654,0 19.27557009635052,50.04531346501143,0 19.27515562406745,50.04535212509601,0 19.27477961717575,50.04519688412785,0 19.27413609154105,50.04490734290972,0 19.27346723634589,50.04459061928983,0 19.27304663607117,50.04450431594861,0 19.27189225500663,50.04423849371305,0 19.27126152564511,50.04420056833704,0 19.27005348438091,50.04406599770245,0 19.26822292254273,50.0439528568285,0 19.26735769777341,50.0437511598316,0 19.26635238388547,50.04346254714059,0 19.26534596798141,50.04308722225718,0 19.26208359520151,50.0421458133335,0 19.25727581578399,50.04078781245637,0 19.25411922957355,50.03985698360893,0 19.25377128015787,50.03966459318173,0 19.25250384225902,50.03972290110971,0 19.24866065860116,50.03973417341601,0 19.24857263019754,50.03817400647533,0 19.24706604920128,50.03801763830977,0 19.2459196496197,50.03790254164546,0 19.24462538768889,50.03780658478303,0 19.24410043589048,50.0378647003792,0 19.2432931958074,50.03796143294275,0 19.23921792810174,50.03841647024296,0 19.23858862735795,50.03845510305764,0 19.23787155930979,50.03844532095427,0 19.23694485190012,50.03841636970702,0 19.23254885790466,50.03835968863812,0 19.23132700951084,50.03832211074582,0 19.23043895512976,50.03829360777019,0 19.2290357314375,50.03829350233622,0 19.22763046497824,50.03840919959305,0 19.2285039919728,50.03950640205136,0 19.2263537608388,50.03983438223241,0 19.22587214998716,50.03987324731808,0 19.2251681576711,50.04005697957373,0 19.22489774193074,50.04005704306274,0 19.22468924642562,50.03981562637545,0 19.22448108580501,50.03914050669049,0 19.22403094026122,50.03895743692819,0 19.22310589887373,50.03976835977303,0 19.22225073350954,50.04045631271548,0 19.2215456628335,50.04073926243727,0 19.22058264961741,50.04099382496737,0 19.22040509097638,50.04075043851122,0 19.21988360806842,50.04044877253889,0 19.21949961373685,50.040576094465,0 19.21925614275863,50.04060569971075,0 19.2189850418171,50.04044080707422,0 19.21873933818582,50.03966443650022,0 19.21817949887553,50.03846315361856,0 19.2176722640544,50.03732891231849,0 19.21711456252005,50.03606659022044,0 19.21651546869991,50.03456382536251,0 19.2166677113516,50.03451574555967,0 19.21656345363688,50.03438054286315,0 19.21492981512753,50.03468052599446,0 19.21505069909916,50.03482602459692,0 19.21477882859987,50.03480665981142,0 19.21314410028607,50.03510002870598,0 19.21288647251685,50.03568131156021,0 19.21161840171783,50.03542741278207,0 19.21086944390804,50.03565492846369,0 19.21037075964464,50.03578117471052,0 19.21014406230352,50.03576178590662,0 19.20982667656924,50.03569387021179,0 19.20964534577388,50.03578125172003,0 19.20929851409693,50.03568427912925,0 19.20687088936205,50.03518028481741,0 19.20546623876583,50.03502516126206,0 19.20535392903018,50.03461708384687,0 19.20524729979284,50.03403518273272,0 19.20483720626344,50.03284154180623,0 19.20477923221159,50.0322985032239,0 19.20446345871622,50.03199815889953,0 19.20357768540686,50.03173773960728,0 19.20454429934556,50.02998413875707,0 19.203928961209,50.02967426564392,0 19.20203351850643,50.02893897318567,0 19.20004315240899,50.02831117586608,0 19.19823117652805,50.02791376432769,0 19.19686392048265,50.02752612758989,0 19.19807148212173,50.0254234429821,0 19.19669250369373,50.0251419173758,0 19.19553608920928,50.02484862417751,0 19.19372332650395,50.02454812888696,0 19.19122095850298,50.02417976155503,0 19.1892340663669,50.02385601900225,0 19.18762423461222,50.02365190670977,0 19.18661594412282,50.02335153888352,0 19.18585960232839,50.02320640642379,0 19.18552690162785,50.02315799795232,0 19.18448508941266,50.02337107151493,0 19.18409155606749,50.02340017484883,0 19.18120079064425,50.02408096532791,0 19.17818102207285,50.02478837789653,0 19.17942118386513,50.02674554194525,0 19.17975103591264,50.02730782016715,0 19.18036762321264,50.02910315804101,0 19.18092544089943,50.030731975291,0 19.18103100497792,50.03096466896317,0 19.18107608306093,50.03152698265924,0 19.17540656733708,50.03158942813725,0 19.17060282246959,50.03166299809724,0 19.17003121626304,50.0317109060894,0 19.16921532093446,50.03190477510695,0 19.16860889744144,50.03189546781805,0 19.16813976784555,50.031866436293,0 19.16729414372514,50.03171100533172,0 19.1668411702389,50.03156536437372,0 19.16679605653547,50.03126462970965,0 19.16669058698869,50.03089595929364,0 19.16691726264732,50.03065351428597,0 19.16737150250453,50.03016867665539,0 19.16752193533586,50.02970296294576,0 19.16777907766879,50.02902396372765,0 19.1678549330996,50.02893677440819,0 19.16737134690769,50.02901415514884,0 19.16684276389721,50.02906251476762,0 19.16625308133395,50.02904277020298,0 19.16576733385045,50.02888674976695,0 19.16540574355077,50.0286539490037,0 19.16495572128832,50.02782585543503,0 19.16444354231734,50.02711756852779,0 19.16420196757625,50.02656451905171,0 19.16421721284646,50.02629289708675,0 19.1645792940973,50.02578816286326,0 19.16515458649686,50.02524594296829,0 19.16559258813578,50.02479008655759,0 19.16597135673868,50.0243828007789,0 19.16606226768173,50.02411139161923,0 19.16604729923025,50.02404353844381,0 19.16567019971642,50.02392716019215,0 19.16521737938303,50.02379136382693,0 19.16443076114624,50.02342254374766,0 19.16409905915545,50.02329640327106,0 19.16346530041214,50.02322835937319,0 19.16310283377927,50.02307303298605,0 19.1628001900448,50.02288849379853,0 19.16234931013039,50.02243287808543,0 19.16195919608781,50.02202610830332,0 19.16173249069908,50.02178117120199,0 19.16168805558657,50.02159682501407,0 19.16170318133447,50.02158712912824,0 19.16185466720296,50.02143199816377,0 19.16221765603429,50.02116065423308,0 19.16232359967773,50.02105407890984,0 19.16227882874863,50.02093779199574,0 19.16194763350621,50.02084081478315,0 19.16148105661251,50.02069539307487,0 19.16092596320064,50.02063704187616,0 19.16029563808372,50.02040460707171,0 19.1593922530398,50.02002702271891,0 19.15866713774825,50.01976531106707,0 19.15816954801657,50.01959086732661,0 19.15753823674793,50.01942626930417,0 19.15691303453216,50.0193826550606,0 19.15617386750005,50.01925731620339,0 19.15585796561588,50.01913107683267,0 19.15570761511198,50.01898570442405,0 19.15552786138068,50.01854011944975,0 19.15515185702077,50.01830760958229,0 19.15350960815607,50.01768763017427,0 19.15310349784573,50.01758099380619,0 19.15226439612371,50.01724212230586,0 19.15175202961872,50.01694198640096,0 19.15140407195761,50.01665138025147,0 19.15093752220421,50.01619636863324,0 19.14995827078769,50.01655400947332,0 19.14932289141647,50.01692129156065,0 19.14903395540681,50.01713399998327,0 19.14852974937141,50.01790854387612,0 19.14827068098483,50.01820889768455,0 19.14770290175951,50.01849020274955,0 19.14720475897057,50.01870324330799,0 19.14660052835401,50.01883875473253,0 19.14624758671304,50.01974131803645,0 19.14585582897819,50.02021612101036,0 19.14537350232257,50.02075565084103,0 19.144482239888,50.02149051981016,0 19.14334466827557,50.0220817573525,0 19.14228067411601,50.02250765906589,0 19.1417604024747,50.02296811083107,0 19.14031523589264,50.02357853804623,0 19.13887557834728,50.02414381794525,0 19.13881010186417,50.02389195547826,0 19.13903361488052,50.02373478539167,0 19.13865165180074,50.02352436669914,0 19.13829429839419,50.023129262648,0 19.13816578906877,50.02282917324258,0 19.13800933928037,50.02248097884462,0 19.13791543400313,50.02225859651481,0 19.13768472108518,50.02201792058786,0 19.13692508186264,50.02181060649362,0 19.13580260728161,50.02144864171014,0 19.13223584328616,50.01962281637785,0 19.13040906306802,50.01852265292284,0 19.12956244787387,50.01801252649145,0 19.12898861484106,50.0179296282335,0 19.12859373945367,50.01781673450161,0 19.12776332813407,50.01709691269355,0 19.12685312652752,50.01617368639002,0 19.12586650812684,50.01508609345397,0 19.1255384478471,50.01461248912237,0 19.12503746053815,50.01364698881105,0 19.12444217569564,50.01256599004434,0 19.12434773768343,50.01240177153525,0 19.12406821364336,50.01207391403682,0 19.12368809061507,50.01196044220136,0 19.12303739949534,50.01188806068625,0 19.12154163432715,50.01171640810229,0 19.12096330840842,50.01156544899097,0 19.1197250256827,50.01106607274924,0 19.11922440833365,50.01099250615455,0 19.11863340562671,50.01090995111517,0 19.11807642625179,50.01099206504566,0 19.11633746012382,50.01149107907811,0 19.11551305910165,50.01178869660157,0 19.11488562286756,50.01206521398659,0 19.11448224144236,50.01213607518505,0 19.11397427721598,50.01212728911459,0 19.11343038894048,50.01198579142116,0 19.11281121438317,50.01177697685787,0 19.1123785046857,50.01168248509931,0 19.11142021750829,50.01190283941362,0 19.10965888292871,50.01235100083955,0 19.10909021364087,50.01259437837604,0 19.10878571982341,50.01283669481859,0 19.10843992351775,50.0130431346067,0 19.10814971649754,50.013250399381,0 19.10846762947115,50.01333462051709,0 19.10875606560636,50.01319562208609,0 19.10911314321475,50.01316458416765,0 19.10837912488665,50.01355973461777,0 19.10752896343767,50.01406963662332,0 19.10732266012571,50.01432278500516,0 19.10441356963447,50.01371269815907,0 19.10291891253709,50.01342246521682,0 19.1024651299719,50.01334791597177,0 19.10008385238746,50.01286291292858,0 19.09683191637395,50.01217830380395,0 19.09470465739037,50.01172028649117,0 19.09296317100781,50.01133716501574,0 19.09241768751457,50.01129282157314,0 19.09232614528997,50.01117442253755,0 19.08889810606629,50.01021576718617,0 19.08429609579199,50.00900611778035,0 19.07721728704713,50.0071294417568,0 19.0745335256237,50.00639890885689,0 19.07072351816929,50.00537719723754,0 19.06663888637691,50.00430112435431,0 19.063639503631,50.00352218769808,0 19.06311669360199,50.00328995855224,0 19.06269690264237,50.00223831617549,0 19.0614920471476,50.00229740738726,0 19.06036924582966,50.0021554999018,0 19.05861502556009,50.00216749359677,0 19.05738918545105,50.0019885497026,0 19.0569596042768,50.00188362631569,0 19.05610258981484,50.00162276132646,0 19.05577712532494,50.00145127400034,0 19.05575413161609,50.00132471099018,0 19.05581235864533,50.00122054984509,0 19.05511322014327,50.00002291425341,0 19.05507762673062,49.9996655711386,0 19.05418783098743,49.99820891225369,0 19.05215149044438,49.99857984921679,0 19.05005299440774,49.99857141291457,0 19.04946726102818,49.99861822422606,0 19.0485589748653,49.99880474741452,0 19.04810785417861,49.99862747497927,0 19.0463181176469,49.99592845321388,0 19.04378497148183,49.9960260493331,0 19.04283107364915,49.99589765133275,0 19.04124529352863,49.99540470694084,0 19.04087028846277,49.99497075814554,0 19.04044312694136,49.9947035270452,0 19.03902864361837,49.9941675495255,0 19.03847314403463,49.994159733869,0 19.03587150454589,49.99400197633382,0 19.03448197020316,49.99394148360526,0 19.03286065229775,49.99391097417547,0 19.03289034959649,49.99349856300009,0 19.03248260313206,49.99295189506081,0 19.03231092323238,49.99218832249164,0 19.03104104197186,49.9918690323254,0 19.02991237567428,49.991890814327,0 19.0287467320447,49.99183806528794,0 19.02629217806664,49.99152508020004,0 19.02393602052365,49.9912390400741,0 19.02278874081292,49.99074416060247,0 19.02028114835694,49.98936307981041,0 19.01962830918498,49.9891239821642,0 19.0167556310401,49.98868114611486,0 19.01268528465881,49.98817925162584,0 19.0120303964871,49.98814928023722,0 19.01097873532624,49.98861398466227,0 19.0103006380225,49.98879879438153,0 19.00949906460341,49.98878305911367,0 19.0088133737749,49.98875333971897,0 19.00773684591862,49.98831331604222,0 19.00720357550855,49.98825324852688,0 19.00652126776019,49.98844601934216,0 19.0061166606611,49.98853489223476,0 19.00567586513412,49.98845269721604,0 19.00497320507399,49.98808695721312,0 19.00454617954347,49.98792295107592,0 19.00407223005677,49.98785565127583,0 19.00280335082015,49.98784773048611,0 19.00049364785727,49.98742301823611,0 18.99940710261966,49.9867055523762,0 18.9986087368801,49.98610990979281,0 18.99805410421057,49.98589373682238,0 18.9951723983184,49.9853005742278,0 18.99367116668847,49.98497172940515,0 18.99155609547786,49.98468197340418,0 18.99094420553327,49.98450298140152,0 18.99050866850944,49.98421292267433,0 18.99009884070681,49.98386281756284,0 18.98950724071505,49.983572113977,0 18.98897466295128,49.98340785842678,0 18.9883855841341,49.98338502897502,0 18.98703101907214,49.98334233673276,0 18.98561742355146,49.98306571746335,0 18.98504989408912,49.98279087679165,0 18.98428894785251,49.98253774548111,0 18.98383747474861,49.98230667016028,0 18.98363504443462,49.98187721338938,0 18.98345420081068,49.98165566558195,0 18.98132344324793,49.98142922347303,0 18.98001809548293,49.98124190665057,0 18.97509993316991,49.9801777002593,0 18.97163863865158,49.97942687081352,0 18.96783137598965,49.9784841686313,0 18.9676834223426,49.9783803494253,0 18.96567698324525,49.97794713808197,0 18.96495370805301,49.9766768300813,0 18.96472052434583,49.97608957120511,0 18.96465260970451,49.97552566990891,0 18.96122916992767,49.97605648872435,0 18.95977464315698,49.97630472454193,0 18.95904038200003,49.9757554486699,0 18.95820125008292,49.97581254707235,0 18.9582524635057,49.97607932206275,0 18.95817157627169,49.97625751338474,0 18.95798737826768,49.97633901112038,0 18.95786084694592,49.97640570687793,0 18.95754667527792,49.97646474760305,0 18.95672708940861,49.97653807606109,0 18.95519105030517,49.97658060197716,0 18.95385847081862,49.97681934362489,0 18.95282178990211,49.97701026454642,0 18.95280291164587,49.97720924454203,0 18.9521168413164,49.97774698614161,0 18.9514822339778,49.97807790483441,0 18.94936043287081,49.97866205492672,0 18.94865307088428,49.9788533383791,0 18.94827208875266,49.97908977803753,0 18.94808675000685,49.97938573852441,0 18.94792511656568,49.97949660119736,0 18.94574403914994,49.9803607922045,0 18.94527437177419,49.98051513084647,0 18.94461376933616,49.98049935359832,0 18.943996304752,49.98034309344646,0 18.94343183790316,49.98029784940759,0 18.94310985377557,49.98031959184591,0 18.9422466827485,49.98054025080524,0 18.94146198716671,49.9796156598555,0 18.94114421644401,49.97917150499606,0 18.94085787521566,49.97890497405246,0 18.94058237172081,49.97872713024418,0 18.94013477143271,49.97871178554755,0 18.93979117587315,49.97886667619838,0 18.93947492632176,49.97910994193477,0 18.93890915252081,49.97954908941967,0 18.93844918836649,49.97993062144665,0 18.93794921822378,49.98012876634511,0 18.93719929108356,49.98017970950605,0 18.93634759702322,49.9801427666123,0 18.93577682005607,49.9800598521747,0 18.93529555431313,49.97995835284768,0 18.93457245858731,49.97997050302136,0 18.93389357290189,49.98002215900183,0 18.93312967594418,49.98008284199193,0 18.93258995331459,49.98013553551073,0 18.93230757528001,49.98003645975961,0 18.93190959677508,49.9798402645034,0 18.9317355142561,49.97968494713119,0 18.93172431027746,49.97955028957882,0 18.93133490352669,49.97901817277738,0 18.93104140402953,49.97887189509527,0 18.93049360963762,49.97845135772467,0 18.93000333546712,49.97816986492046,0 18.92937799448896,49.9778111566484,0 18.92891944281035,49.97742103691864,0 18.92859844741862,49.97700085087527,0 18.92832469122505,49.97654295682319,0 18.92820232949586,49.97610724696276,0 18.92824468569667,49.97562544108787,0 18.92825521362827,49.97517183530252,0 18.92834064254821,49.97467882479194,0 18.92842326478016,49.97427032145665,0 18.92872070217724,49.97372725227255,0 18.92908048394128,49.97315936169089,0 18.92949874869217,49.9726703159134,0 18.92965902761645,49.97225658812168,0 18.92988384431249,49.97164798300634,0 18.93028856649621,49.97035193607001,0 18.93054728161146,49.96952698567031,0 18.92848150619088,49.96884090308657,0 18.92654019901303,49.96820037872831,0 18.9249764725455,49.96771275646213,0 18.92432236882465,49.96748519888806,0 18.92279765005327,49.96685708166811,0 18.92050787973659,49.96596338936558,0 18.91924750780066,49.96601595219218,0 18.91697582553572,49.96616535982101,0 18.9138560231097,49.96639928750048,0 18.91172630577175,49.96653271012373,0 18.91037373809525,49.96663447697252,0 18.90944471563591,49.96662527345732,0 18.90783220335389,49.96666712206858,0 18.90709810113234,49.96665011793967,0 18.90635203542447,49.9665272115039,0 18.90561944681033,49.96643300284229,0 18.90482847659015,49.96629017217309,0 18.90380789612642,49.96606048294765,0 18.90361074366476,49.96600701895842,0 18.90362035245148,49.96587087134355,0 18.90359150680545,49.96567978730525,0 18.90350659691294,49.96541165564996,0 18.90344030513759,49.96520473199993,0 18.90348405832624,49.96509707118064,0 18.90352212710569,49.96488339857748,0 18.90352987362333,49.96473213789993,0 18.90346962228779,49.96456476902763,0 18.90330715632985,49.96419038313083,0 18.90323302945671,49.96399056718842,0 18.90318255698219,49.96373160929445,0 18.90314617265174,49.96350541894623,0 18.90316123055041,49.96324847296802,0 18.90316384975366,49.96311671263793,0 18.90319550432685,49.96286906802661,0 18.90328453075667,49.96267100202527,0 18.9034764644928,49.96245099828815,0 18.90389946934498,49.96203633690643,0 18.90417452756996,49.96177296806929,0 18.90447592960999,49.96135810844318,0 18.90475022788478,49.96103155315758,0 18.90508612329782,49.96061962528655,0 18.90475357664493,49.96055139989724,0 18.90436973198385,49.96043113457561,0 18.90393062197822,49.9603304224918,0 18.90356627519002,49.96021113127983,0 18.90300601596916,49.95997260802487,0 18.90261950374643,49.95981231563617,0 18.90224070545492,49.95966428857303,0 18.90259761506764,49.95942632475766,0 18.90303753431407,49.95920081616124,0 18.90323049345312,49.95906126932758,0 18.90341192491582,49.95887779260533,0 18.90378311562764,49.95851674972291,0 18.90452433782618,49.95779362856695,0 18.90497047074357,49.95738634879169,0 18.90514350950135,49.95716787285598,0 18.90529918099157,49.95697547289461,0 18.90543808336232,49.95674855050394,0 18.90556974714201,49.95654496448664,0 18.90570173616579,49.95627825988177,0 18.90585739257597,49.955995689406,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -2698,6 +2770,17 @@ Nieznane odcinki: Rybnik - Niewiesze; Toszek - Lubliniec</description>
 					<tessellate>1</tessellate>
 					<coordinates>
 						18.98120798757713,50.11550947054704,0 18.98168328099213,50.11537876125767,0 18.98187087680458,50.1151681075876,0 18.98290301454416,50.1148787674262,0 18.98388435087557,50.11447269426185,0 18.98612739747491,50.11335284921964,0 18.98645849502896,50.11328698812447,0 18.98678683286716,50.11310052159517,0 18.98698580094959,50.11295610478242,0 18.98971411288325,50.11166376152627,0 18.9962863322667,50.10858013815811,0 18.99904076380148,50.10730359053574,0 18.99925373709186,50.10734453018466,0 18.99960046942505,50.10715633457176,0 18.99971352972523,50.10692502422069,0 19.0005033377438,50.10683820190406,0 19.00103939334143,50.10662293306129,0 19.00156536746428,50.10610087610184,0 19.00179791331152,50.10562032744525,0 19.00178745541781,50.10524856807001,0 19.00153985197886,50.10492558505696,0 19.00105919744127,50.10462319574472,0 19.00073309064618,50.10438541007627,0 19.00045622242449,50.10396730692801,0 19.00022582546258,50.10354621162868,0 19.00008922570957,50.10329267875979,0 18.99987707362599,50.10301976768203,0 19.0001257919194,50.10277709781493,0 19.00030005552568,50.10228012416932,0 19.00030878537876,50.10207004059182,0 19.00053577616071,50.10189629709991,0 19.00033559024649,50.1015998272782,0 19.0002750759405,50.10138873064337,0 19.00036852052569,50.10079145395491,0 19.00237654962465,50.10072295400904,0 19.00421179686049,50.10068035451448,0 19.00636258775064,50.10037350585622,0 19.00676149665403,50.10029539889185,0 19.00689883572788,50.10015741347803,0 19.00721336034901,50.10015737815141,0 19.00748751263934,50.10022623336314,0 19.0099046854636,50.09987918819041,0 19.01019208824689,50.09966960726208,0 19.01033980832102,50.09944441060243,0 19.01070989515272,50.09941859861013,0 19.01076896511924,50.09959155792163,0 19.01092378509514,50.09971336378272,0 19.01158840282779,50.09970601801177,0 19.01330271756092,50.09947295889221,0 19.01345646781804,50.09940173708648,0 19.01370832768566,50.09938384106898,0 19.01380765668877,50.09948217966679,0 19.01430414438298,50.09943719646628,0 19.01507502610248,50.09946325377229,0 19.01528617310201,50.0994273290485,0 19.01571824264469,50.0995171302901,0 19.0160389920621,50.09963449897328,0 19.01771882830478,50.10009397936094,0 19.01873290193052,50.10036878095234,0 19.01927323809291,50.10045889047596,0 19.01988573811271,50.10068407693013,0 19.02140432566384,50.10106809171447,0 19.0219403650055,50.10120239744825,0 19.02226857837378,50.10119485781802,0 19.02271250577194,50.10129985042367,0 19.02362567856396,50.10137629447453,0 19.02465991026766,50.10133817011225,0 19.026100322538,50.10135094883149,0 19.02769997421298,50.10134412129196,0 19.02783642997879,50.10132900318326,0 19.0278968148182,50.1011564128448,0 19.02754731535461,50.10080856463967,0 19.02570580719826,50.09912228069989,0 19.0243946800672,50.09785305698784,0 19.02411247882248,50.0976514470891,0 19.02451058959062,50.09756882539939,0 19.02504231788106,50.09754130549787,0 19.02567441676347,50.09762358393802,0 19.02674748953915,50.09757513921488,0 19.02804456430155,50.09756179053729,0 19.02966533884396,50.09753502780995,0 19.03056091829666,50.09760010444884,0 19.03182911031826,50.09768026441006,0 19.03268502618508,50.09773704792923,0 19.0340534936343,50.09765699292988,0 19.03588856945328,50.0976055900327,0 19.03824767717579,50.09747066710646,0 19.03885547895308,50.09747048146094,0 19.04073029916827,50.09751236011174,0 19.04153753145937,50.09749742537565,0 19.04304991528464,50.09745713938053,0 19.04418179537208,50.09729941735168,0 19.04532689411573,50.09714552471229,0 19.04584023012319,50.09710324508933,0 19.04726627124038,50.09695115940365,0 19.04765650781553,50.09687581074189,0 19.04782966948212,50.09675962846492,0 19.0478917064199,50.09650246176798,0 19.04784172640346,50.09623613628138,0 19.04770656860504,50.09591871422047,0 19.04774443816589,50.09569716711905,0 19.04779031558993,50.09558070229657,0 19.04807183909696,50.09546544193873,0 19.04904948130477,50.0952507452332,0 19.04982595222591,50.09505575552257,0 19.05083109849461,50.0948646618894,0 19.05143462641419,50.0948076466314,0 19.05303806329845,50.09470108873412,0 19.05403809464127,50.09461641010773,0 19.05463147637482,50.09453311463549,0 19.055018120871,50.09433333128111,0 19.0554763889469,50.09399407186746,0 19.05580733934839,50.09381866433719,0 19.05609223510252,50.09375633370411,0 19.05651945750769,50.09373592369188,0 19.05763996030076,50.09374375723591,0 19.05799350082036,50.09366669073005,0 19.0588064849185,50.09329985139361,0 19.05947429597803,50.09308166216607,0 19.05973728442323,50.09300773879846,0 19.06032013808757,50.09301434903958,0 19.06128428173373,50.09301926060861,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Czerwona</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						19.18885158510634,50.06734938276335,0 19.18715404159068,50.06860656382339,0 19.18457584167724,50.0707124513604,0 19.18206030817942,50.07267696455028,0 19.17960106851237,50.0746217782807,0 19.17877586444539,50.07523381699298,0 19.17857260787394,50.07518035343202,0 19.17829880881457,50.07528715426103,0 19.17820500870995,50.07550074858622,0 19.1774981870062,50.07602796525305,0 
 					</coordinates>
 				</LineString>
 			</Placemark>
@@ -3062,7 +3145,7 @@ Nieznany odcinek: Rybnik Ochojec - Stodoły</description>
 				<name>Brązowa</name>
 				<visibility>0</visibility>
 				<open>1</open>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin13</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -3576,7 +3659,7 @@ Nieznany odcinek: Rybnik Ochojec - Stodoły</description>
 				<Placemark>
 					<name>Niebieska - Żółta</name>
 					<visibility>0</visibility>
-					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<LineString>
 						<tessellate>1</tessellate>
 						<coordinates>
