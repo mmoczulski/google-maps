@@ -2,17 +2,17 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>forest_roads.kml</name>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
+			<styleUrl>#sn_ylw-pushpin22</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin36">
+	<Style id="sn_ylw-pushpin361">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -25,9 +25,104 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl01">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin361</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin22">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -51,29 +146,6 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin110">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin36</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin30</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
 	<Folder>
 		<name>Drogi leśne</name>
 		<visibility>0</visibility>
@@ -91,7 +163,7 @@
 		<Placemark>
 			<name>Łącznik w okolicach Paprocan</name>
 			<visibility>0</visibility>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -102,11 +174,55 @@
 		<Placemark>
 			<name>Łącznik koło browaru Obywatelskiego</name>
 			<visibility>0</visibility>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
 					18.94458431175605,50.13472347940839,0 18.9453139521107,50.13467305127995,0 18.94588514595848,50.13456194261372,0 18.94651164945864,50.13430761951207,0 18.9470535516447,50.13416779179955,0 18.94760977772668,50.13424952404602,0 18.95180911175509,50.13497097330081,0 18.95484842056295,50.1354077538553,0 18.95746175633965,50.13583789078727,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik Tychy - Wyry</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.93673955855253,50.13244260746017,0 18.93515733883746,50.13219793675432,0 18.93078253672555,50.13147220160764,0 18.92694563930209,50.13091681421957,0 18.9260999392538,50.13072593460399,0 18.92562426832481,50.13045764848829,0 18.92462119247617,50.12981682253418,0 18.9243365153955,50.1297694125374,0 18.92412821543688,50.12981765572786,0 18.92396550815415,50.12954204730589,0 18.92395110688576,50.12922794340382,0 18.92396360086423,50.12885576657371,0 18.92493897798086,50.1282234969876,0 18.9250127684026,50.12808028940281,0 18.92481897179324,50.12801405152604,0 18.92448904726474,50.12769024265865,0 18.92424905330314,50.12751869084401,0 18.9238905934192,50.12741436964973,0 18.92284892849706,50.12742680906947,0 18.92181196577821,50.12746940513971,0 18.92028559880671,50.1280842240006,0 18.91842080965561,50.12888088076183,0 18.91635377623359,50.1296006623768,0 18.91262463437554,50.13050469807568,0 18.91059697634014,50.13079933483349,0 18.90995982156818,50.13085781899377,0 18.90923716173508,50.13111654199023,0 18.90833470001305,50.13139408934009,0 18.90785988791416,50.13070873886137,0 18.90753121072135,50.13053798146103,0 18.90665647908593,50.13058788892105,0 18.90416711734804,50.1307698217278,0 18.90399113013176,50.13078940378871,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik Orzesze - Łaziska</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.80343514370243,50.13508704109485,0 18.80367669021766,50.13540134689799,0 18.80679899211929,50.13776348773352,0 18.81337900462433,50.13852342208592,0 18.8182157642369,50.13907089963364,0 18.81844748046172,50.13893641053857,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik przez ogródki działkowe - Tychy</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.991182205279,50.12636061160553,0 18.99168396952787,50.12745376034129,0 18.99201690646897,50.12747169711378,0 18.99225993966837,50.12785072395948,0 18.99323023574519,50.12761822115464,0 18.99353344231309,50.12789574510337,0 18.9936196302997,50.1282193444852,0 18.99441262684255,50.12826508590013,0 18.99468619603732,50.12855123035128,0 18.99488710568788,50.12913225418999,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik Brzeźce - Mizerów</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.83196169708503,49.98547319829993,0 18.83126611600859,49.98602294626998,0 18.83086205254574,49.98638685044014,0 18.83082468503224,49.98726682120045,0 18.83102486199379,49.98747847725654,0 18.83071399716523,49.98770132451217,0 18.82997940786051,49.98798557721145,0 18.82886273777954,49.98870169596515,0 18.82672326879269,49.98946318622527,0 18.82490358118981,49.98972743484246,0 18.82160923484445,49.99045499390076,0 18.82031668833291,49.99060462225422,0 18.81987481583032,49.99058211283298,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
