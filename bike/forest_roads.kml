@@ -2,14 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>forest_roads.kml</name>
-	<StyleMap id="msn_ylw-pushpin3">
+	<StyleMap id="msn_ylw-pushpin110">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin22</styleUrl>
+			<styleUrl>#sn_ylw-pushpin361</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+			<styleUrl>#sh_ylw-pushpin30</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_ylw-pushpin361">
@@ -25,9 +25,143 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl01">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin22">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin53">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -48,104 +182,6 @@
 			<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl01">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin110">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin361</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin30</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin22">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin30">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
 	<Folder>
 		<name>Drogi leśne</name>
 		<visibility>0</visibility>
@@ -207,22 +243,88 @@
 		<Placemark>
 			<name>Łącznik przez ogródki działkowe - Tychy</name>
 			<visibility>0</visibility>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
-					18.991182205279,50.12636061160553,0 18.99168396952787,50.12745376034129,0 18.99201690646897,50.12747169711378,0 18.99225993966837,50.12785072395948,0 18.99323023574519,50.12761822115464,0 18.99353344231309,50.12789574510337,0 18.9936196302997,50.1282193444852,0 18.99441262684255,50.12826508590013,0 18.99468619603732,50.12855123035128,0 18.99488710568788,50.12913225418999,0 
+					18.991182205279,50.12636061160553,0 18.99168396952787,50.12745376034129,0 18.99201690646897,50.12747169711378,0 18.99225993966837,50.12785072395948,0 18.99323023574519,50.12761822115464,0 18.99353344231309,50.12789574510337,0 18.9936196302997,50.12821934448521,0 18.99441262684255,50.12826508590013,0 18.99468619603732,50.12855123035128,0 18.99488710568788,50.12913225418999,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
 		<Placemark>
 			<name>Łącznik Brzeźce - Mizerów</name>
 			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.83196169708503,49.98547319829993,0 18.83126611600859,49.98602294626998,0 18.83086205254574,49.98638685044014,0 18.83082468503224,49.98726682120045,0 18.83102486199379,49.98747847725653,0 18.83071399716523,49.98770132451217,0 18.82997940786051,49.98798557721145,0 18.82886273777954,49.98870169596515,0 18.82672326879269,49.98946318622527,0 18.82490358118981,49.98972743484245,0 18.82160923484445,49.99045499390076,0 18.82031668833291,49.99060462225422,0 18.81987481583032,49.99058211283298,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik ul. Drozdów - DP51</name>
+			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
-					18.83196169708503,49.98547319829993,0 18.83126611600859,49.98602294626998,0 18.83086205254574,49.98638685044014,0 18.83082468503224,49.98726682120045,0 18.83102486199379,49.98747847725654,0 18.83071399716523,49.98770132451217,0 18.82997940786051,49.98798557721145,0 18.82886273777954,49.98870169596515,0 18.82672326879269,49.98946318622527,0 18.82490358118981,49.98972743484246,0 18.82160923484445,49.99045499390076,0 18.82031668833291,49.99060462225422,0 18.81987481583032,49.99058211283298,0 
+					18.97609400516349,50.14904621551398,0 18.97712964576005,50.15021151573289,0 18.97752499285977,50.15112797187798,0 18.97705216580709,50.15127754815745,0 18.97652607958645,50.15157293061173,0 18.97623196006643,50.15191584030219,0 18.97546922212414,50.15396271244276,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik ul. Kolibrów - DP52</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.98402165510228,50.14746054856388,0 18.98490421673733,50.148908639524,0 18.98532427906393,50.150720778451,0 18.98559662594418,50.15077007734737,0 18.98624605941842,50.15070501546573,0 18.98651418023053,50.15081343932336,0 18.98664329471364,50.15129958909783,0 18.98691700926305,50.15150553792965,0 18.98903114144442,50.15164106036778,0 18.98948125509629,50.15158899257023,0 18.99035387681422,50.15180772207152,0 18.9906002820481,50.15210484120238,0 18.99185258524394,50.15233676871424,0 18.99207443401227,50.15261035848495,0 18.9921861612385,50.1529091466228,0 18.99208657179637,50.1542544988566,0 18.99304997562289,50.15684494618328,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik w lesie koło Czułowa</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.99929346267876,50.15793238476254,0 18.99723689858049,50.15872659645117,0 18.99662347306416,50.15906833667056,0 18.99595992212421,50.15961098238177,0 18.99502406737629,50.15984420182402,0 18.99605268557095,50.1573891645668,0 18.99294203924839,50.16500552944697,0 18.99160881066434,50.1656472001864,0 18.99020579642709,50.16607700124508,0 18.98915911672154,50.16653133249987,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik Czułów - DP49/50</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					19.01064561177774,50.15980177416048,0 19.00994280676527,50.15998034055759,0 19.00947058743635,50.16020994424969,0 19.00894020708579,50.15996394323327,0 19.00855745930075,50.15992857088845,0 19.00537245428208,50.16179108974272,0 19.00431666410616,50.16239291421881,0 19.00260482326668,50.16312827485969,0 18.999611580909,50.16435466857202,0 18.99797939210831,50.16503027787887,0 18.99610161032372,50.16557339918766,0 18.99439600157107,50.16611357899579,0 18.99411723472288,50.16644715568888,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik Zaopusta - DP51</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.97246385392306,50.16148886620584,0 18.9722686261162,50.16200992622588,0 18.97271314234712,50.16263192315189,0 18.97267750350421,50.16300221590299,0 18.97334786271997,50.16381818602097,0 18.9742209109392,50.1640898448493,0 18.97467493161714,50.16527284123385,0 18.97450136997966,50.16556720071815,0 18.97413300179134,50.16569814556416,0 18.97336729937981,50.16587470195424,0 18.97309843298578,50.16615357508785,0 18.97302300226783,50.16635545577641,0 18.97331129958886,50.16818261141061,0 18.97290969005439,50.16961351092457,0 18.97261927350972,50.17034964042385,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Łącznik PKP - Mąkołowiec</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					18.9652453912819,50.13646400099297,0 18.96481264406862,50.13676371925558,0 18.96470044841403,50.13704745953499,0 18.96483541590399,50.1389726374644,0 18.96501722079547,50.14004726643726,0 18.96495744972674,50.14040712267685,0 18.96504015433004,50.14154155101651,0 18.96526668017695,50.14253052125132,0 18.96536277961959,50.14355207383153,0 18.96562743039682,50.14581850108033,0 18.9658083131469,50.14639915067973,0 18.96609675725622,50.1482308640907,0 18.96663986579346,50.1489294011524,0 18.96719999513671,50.14957837046631,0 18.96764913052345,50.15005702498069,0 18.96722695849062,50.15024537862991,0 18.96810042103997,50.15111120347402,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
